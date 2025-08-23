@@ -1,0 +1,90 @@
+{
+  "id": "common-phrases",
+  "title": "Common Kannada Phrases",
+  "description": "Useful phrases for everyday conversations",
+  "level": "beginner",
+  "type": "phrases",
+  "sections": [
+    {
+      "id": "basic-conversation",
+      "title": "Basic Conversation",
+      "subtitle": "Essential phrases for daily interaction",
+      "items": [
+        {
+          "kannada": "ನನ್ನ ಹೆಸರು ರಾಮ್",
+          "english": "My name is Ram",
+          "romanization": "nanna hesaru Ram",
+          "context": "Introducing yourself",
+          "breakdown": [
+            { "word": "ನನ್ನ", "meaning": "my" },
+            { "word": "ಹೆಸರು", "meaning": "name" },
+            { "word": "ರಾಮ್", "meaning": "Ram" }
+          ]
+        },
+        {
+          "kannada": "ನೀವು ಎಲ್ಲಿಂದ ಬಂದಿದ್ದೀರಿ?",
+          "english": "Where are you from?",
+          "romanization": "niivu ellinda bandiddiri?",
+          "context": "Asking about someone's origin",
+          "breakdown": [
+            { "word": "ನೀವು", "meaning": "you (respectful)" },
+            { "word": "ಎಲ್ಲಿಂದ", "meaning": "from where" },
+            { "word": "ಬಂದಿದ್ದೀರಿ", "meaning": "have you come" }
+          ]
+        },
+        {
+          "kannada": "ನಾನು ಬೆಂಗಳೂರಿನಿಂದ ಬಂದಿದ್ದೇನೆ",
+          "english": "I am from Bangalore",
+          "romanization": "naanu Bengalurininda bandiddene",
+          "context": "Telling about your origin",
+          "breakdown": [
+            { "word": "ನಾನು", "meaning": "I" },
+            { "word": "ಬೆಂಗಳೂರಿನಿಂದ", "meaning": "from Bangalore" },
+            { "word": "ಬಂದಿದ್ದೇನೆ", "meaning": "have come" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asking-help",
+      "title": "Asking for Help",
+      "subtitle": "Phrases when you need assistance",
+      "items": [
+        {
+          "kannada": "ನನಗೆ ಸಹಾಯ ಬೇಕು",
+          "english": "I need help",
+          "romanization": "nanage sahaaya beku",
+          "context": "When you need assistance",
+          "breakdown": [
+            { "word": "ನನಗೆ", "meaning": "to me/for me" },
+            { "word": "ಸಹಾಯ", "meaning": "help" },
+            { "word": "ಬೇಕು", "meaning": "need/want" }
+          ]
+        },
+        {
+          "kannada": "ಇದು ಎಷ್ಟು ಬೆಲೆ?",
+          "english": "How much does this cost?",
+          "romanization": "idu eshTu bele?",
+          "context": "Asking about price while shopping",
+          "breakdown": [
+            { "word": "ಇದು", "meaning": "this" },
+            { "word": "ಎಷ್ಟು", "meaning": "how much" },
+            { "word": "ಬೆಲೆ", "meaning": "price/cost" }
+          ]
+        },
+        {
+          "kannada": "ಕ್ಷಮಿಸಿ, ನನಗೆ ಕನ್ನಡ ಬರುವುದಿಲ್ಲ",
+          "english": "Sorry, I don't know Kannada",
+          "romanization": "kshamisi, nanage kannaDa baruvudilla",
+          "context": "When you can't speak Kannada well",
+          "breakdown": [
+            { "word": "ಕ್ಷಮಿಸಿ", "meaning": "sorry/excuse me" },
+            { "word": "ನನಗೆ", "meaning": "to me" },
+            { "word": "ಕನ್ನಡ", "meaning": "Kannada" },
+            { "word": "ಬರುವುದಿಲ್ಲ", "meaning": "doesn't come/don't know" }
+          ]
+        }
+      ]
+    }
+  ]
+}

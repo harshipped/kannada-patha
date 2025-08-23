@@ -1046,3 +1046,638 @@ header {
   background: #e2e8f0;
   border-color: #94a3b8;
 }
+
+
+/* Learning Materials Styles */
+
+/* Learning Materials Selector */
+.learning-materials-selector {
+  padding: 2rem;
+}
+
+.selector-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.selector-header h2 {
+  margin: 0;
+  color: #374151;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.selector-header p {
+  margin: 0.5rem 0 0 0;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.loading-materials, .error-materials, .no-materials {
+  text-align: center;
+  padding: 3rem;
+}
+
+.loading-materials p, .no-materials p {
+  color: #6b7280;
+  margin-top: 1rem;
+}
+
+.error-materials h3 {
+  color: #ef4444;
+  margin: 1rem 0 0.5rem;
+}
+
+/* Category Filter */
+.category-filter {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.category-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  background: white;
+  color: #6b7280;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.category-tab.active {
+  background: #f97316;
+  color: white;
+  border-color: #f97316;
+}
+
+.category-tab.inactive:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+}
+
+/* Materials Grid */
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.material-card {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.material-card:hover {
+  border-color: #f97316;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.15);
+  transform: translateY(-2px);
+}
+
+.material-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.material-content {
+  flex: 1;
+}
+
+.material-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 0.5rem 0;
+}
+
+.material-description {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.material-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.level-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.level-beginner {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.level-intermediate {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.level-advanced {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.item-count {
+  color: #6b7280;
+  font-size: 0.75rem;
+}
+
+.sections-preview {
+  font-size: 0.75rem;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+.sections-count {
+  font-weight: 500;
+}
+
+.sections-list {
+  margin-left: 0.5rem;
+}
+
+.material-action {
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
+
+.start-lesson {
+  color: #f97316;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+/* Learning Materials Viewer */
+.learning-header {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.learning-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.learning-title h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.learning-description {
+  margin: 0.25rem 0 0.5rem 0;
+  opacity: 0.9;
+  font-size: 0.875rem;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Section Navigation */
+.section-navigation {
+  display: flex;
+  background: #f9fafb;
+  border-bottom: 2px solid #e5e7eb;
+  overflow-x: auto;
+}
+
+.section-tab {
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border: none;
+  color: #6b7280;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  border-bottom: 3px solid transparent;
+}
+
+.section-tab.active {
+  color: #f97316;
+  background: white;
+  border-bottom-color: #f97316;
+}
+
+.section-tab.inactive:hover {
+  background: #f3f4f6;
+}
+
+/* Learning Content */
+.learning-content {
+  padding: 2rem;
+}
+
+.learning-section {
+  max-width: 100%;
+}
+
+.section-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 0.5rem 0;
+}
+
+.section-subtitle {
+  color: #6b7280;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Alphabet Grid */
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.alphabet-card {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.alphabet-card:hover {
+  border-color: #f97316;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.15);
+}
+
+.alphabet-main {
+  margin-bottom: 1rem;
+}
+
+.kannada-char {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f97316;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.kannada-char:hover {
+  transform: scale(1.1);
+}
+
+.char-info {
+  margin-bottom: 1rem;
+}
+
+.romanization {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.25rem;
+}
+
+.pronunciation {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.example-section {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.example-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.example-word {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f97316;
+  cursor: pointer;
+  margin-bottom: 0.25rem;
+  transition: color 0.2s ease;
+}
+
+.example-word:hover {
+  color: #ea580c;
+}
+
+.example-details {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.example-meaning {
+  color: #374151;
+  font-weight: 500;
+}
+
+.example-rom {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+/* Vocabulary List */
+.vocabulary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.vocabulary-item {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.vocabulary-item:hover {
+  border-color: #f97316;
+  box-shadow: 0 2px 8px rgba(249, 115, 22, 0.1);
+}
+
+.word-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.kannada-word {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f97316;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  min-width: 120px;
+}
+
+.kannada-word:hover {
+  color: #ea580c;
+}
+
+.word-details {
+  flex: 1;
+}
+
+.english-meaning {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.25rem;
+}
+
+.romanization {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.context-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: #fef3c7;
+  border-radius: 0.5rem;
+  border-left: 4px solid #f59e0b;
+}
+
+.context-icon {
+  color: #f59e0b;
+  margin-top: 0.125rem;
+  flex-shrink: 0;
+}
+
+.context-text {
+  color: #92400e;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Phrases List */
+.phrases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.phrase-item {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  transition: all 0.2s ease;
+}
+
+.phrase-item:hover {
+  border-color: #f97316;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.1);
+}
+
+.phrase-main {
+  margin-bottom: 1.5rem;
+}
+
+.kannada-phrase {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #f97316;
+  cursor: pointer;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+  transition: color 0.2s ease;
+}
+
+.kannada-phrase:hover {
+  color: #ea580c;
+}
+
+.phrase-translation {
+  font-size: 1.125rem;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.phrase-romanization {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.phrase-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.context-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #ecfdf5;
+  color: #065f46;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.breakdown-section {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1.5rem;
+}
+
+.breakdown-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.breakdown-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.breakdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #f3f4f6;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.breakdown-word {
+  font-weight: 600;
+  color: #f97316;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.breakdown-word:hover {
+  color: #ea580c;
+}
+
+.breakdown-meaning {
+  color: #6b7280;
+}
+
+/* Section Controls */
+.section-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
+
+.section-counter {
+  color: #6b7280;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .learning-materials-selector {
+    padding: 1rem;
+  }
+  
+  .materials-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .alphabet-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .word-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .breakdown-list {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .section-controls {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .category-filter {
+    flex-wrap: wrap;
+  }
+}

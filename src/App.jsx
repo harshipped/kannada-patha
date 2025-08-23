@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { BookOpen, Upload, FileText, Clipboard, Volume2, X, ArrowLeft, AlertCircle, Loader2, Info, Lightbulb, Zap } from 'lucide-react';
+import { BookOpen, Upload, FileText, Clipboard, Volume2, X, ArrowLeft, AlertCircle, Loader2, Info, Lightbulb, Zap, GraduationCap } from 'lucide-react';
 import { useDictionary } from './hooks/useDictionary.js';
 import { cleanWordForLookup, analyzeCompound, getGrammarExplanation } from './utils/kannadaMorphology.js';
+import LearningMaterialsSelector from './LearningMaterialsSelector.jsx';
+import LearningMaterialsViewer from './LearningMaterialsViewer.jsx';
 
 // Layout Component
 const Layout = ({ children }) => {
@@ -12,7 +14,7 @@ const Layout = ({ children }) => {
           <div className="header-title">
             <BookOpen className="icon-lg icon-orange" />
             <h1>
-              ಕನ್ನಡ <span className="orange-text">ಪಾಠ</span>
+              ಕನ್ನಡ <span className="orange-text">ಪಾಠ </span>
             </h1>
           </div>
           <div className="header-subtitle">
@@ -64,8 +66,67 @@ const LoadingScreen = ({ error, onRetry, stats }) => {
   );
 };
 
+// Mode Selection Component
+const ModeSelector = ({ onModeSelect }) => {
+  return (
+    <div className="card">
+      <h2 className="card-title">Choose Learning Mode</h2>
+      
+      <div className="mode-selector-grid">
+        <div 
+          className="mode-card"
+          onClick={() => onModeSelect('reader')}
+        >
+          <div className="mode-icon">
+            <BookOpen className="icon-xl" style={{ color: '#3b82f6' }} />
+          </div>
+          <div className="mode-content">
+            <h3 className="mode-title">Text Reader</h3>
+            <p className="mode-description">
+              Read your own Kannada text with interactive word analysis and dictionary lookup
+            </p>
+            <ul className="mode-features">
+              <li>Upload text files or paste content</li>
+              <li>Click words for instant dictionary</li>
+              <li>Morphological analysis</li>
+              <li>Audio pronunciation</li>
+            </ul>
+          </div>
+          <div className="mode-action">
+            <span>Start Reading →</span>
+          </div>
+        </div>
+
+        <div 
+          className="mode-card"
+          onClick={() => onModeSelect('learning')}
+        >
+          <div className="mode-icon">
+            <GraduationCap className="icon-xl" style={{ color: '#10b981' }} />
+          </div>
+          <div className="mode-content">
+            <h3 className="mode-title">Learning Materials</h3>
+            <p className="mode-description">
+              Structured lessons for learning Kannada alphabets, vocabulary, and phrases
+            </p>
+            <ul className="mode-features">
+              <li>Interactive alphabet lessons</li>
+              <li>Beginner vocabulary</li>
+              <li>Common phrases & conversations</li>
+              <li>Progressive difficulty levels</li>
+            </ul>
+          </div>
+          <div className="mode-action">
+            <span>Start Learning →</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 // Text Input Component
-const TextInput = ({ onTextSubmit }) => {
+const TextInput = ({ onTextSubmit, onBack }) => {
   const [inputText, setInputText] = useState('');
   const [activeTab, setActiveTab] = useState('paste');
 
@@ -89,10 +150,17 @@ const TextInput = ({ onTextSubmit }) => {
     }
   };
 
-  const sampleText = `ಒಂದು ಕಾಲದಲ್ಲಿ ಒಂದು ಊರಲ್ಲಿ ಒಬ್ಬ ರಾಜನಿದ್ದನು. ಅವನು ತುಂಬಾ ದಯಾಳು ಮತ್ತು ನ್ಯಾಯಪ್ರಿಯನಾಗಿದ್ದನು. ಪ್ರಜೆಗಳು ಅವನನ್ನು ತುಂಬಾ ಪ್ರೀತಿಸುತ್ತಿದ್ದರು. ಒಂದು ದಿನ ರಾಜನಿಗೆ ಒಂದು ಕನಸು ಬಂದಿತು. ಆ ಕನಸಿನಲ್ಲಿ ಒಬ್ಬ ಮುದುಕ ಅವನಿಗೆ ಹೇಳಿದನು, "ನಿಮ್ಮ ರಾಜ್ಯದಲ್ಲಿ ಒಂದು ವಿಶೇಷ ಪುಸ್ತಕ ಇದೆ. ಅದು ನಿಮ್ಮ ಜನರಿಗೆ ಬಹಳ ಒಳ್ಳೆಯದನ್ನು ಮಾಡುತ್ತದೆ."`;
+  const sampleText = `ಒಂದು ಕಾಲದಲ್ಲಿ ಒಂದು ಊರಲ್ಲಿ ಒಬ್ಬ ರಾಜನಿದ್ದನು. ಅವನು ತುಂಬಾ ದಯಾಳು ಮತ್ತು ನ್ಯಾಯಪ್ರಿಯನಾಗಿದ್ದನು. ಪ್ರಜೆಗಳು ಅವನನ್ನು ತುಂಬಾ ಪ್ರೀತಿಸುತ್ತಿದ್ದರು. ಒಂದು ದಿನ ರಾಜನಿಗೆ ಒಂದು ಕನಸು ಬಂದಿತು. ಆ ಕನಸಿನಲ್ಲಿ ಒಬ್ಬ ಮುದ್ದೆ ಅವನಿಗೆ ಹೇಳಿದನು, "ನಿಮ್ಮ ರಾಜ್ಯದಲ್ಲಿ ಒಂದು ವಿಶೇಷ ಪುಸ್ತಕ ಇದೆ. ಅದು ನಿಮ್ಮ ಜನರಿಗೆ ಬಹಳ ಒಳ್ಳೆಯದನ್ನು ಮಾಡುತ್ತದೆ."`;
 
   return (
     <div className="card">
+      <div className="reader-header">
+        <button onClick={onBack} className="back-button">
+          <ArrowLeft className="icon" />
+          Back to Mode Selection
+        </button>
+      </div>
+      
       <h2 className="card-title">Add Your Kannada Text</h2>
       
       <div className="tab-container">
@@ -338,7 +406,7 @@ const DictionaryPanel = ({ word, onClose, lookupWord, isDbReady, speakWord }) =>
           )}
           {dictEntry.matchType === 'progressive' && (
             <div className="match-badge partial">
-              <span>📝 Similar Words</span>
+              <span>🔍 Similar Words</span>
             </div>
           )}
           {dictEntry.matchType === 'suggestions' && (
@@ -526,7 +594,7 @@ const DictionaryPanel = ({ word, onClose, lookupWord, isDbReady, speakWord }) =>
               <div className="word-type">Translation</div>
               <div className="definition">{dictEntry.definition}</div>
               <div style={{ fontSize: '0.75rem', color: '#9ca3af', marginTop: '0.5rem' }}>
-                📡 {dictEntry.source === 'mymemory' ? 'MyMemory Translation' : 
+                🌐 {dictEntry.source === 'mymemory' ? 'MyMemory Translation' : 
                      dictEntry.source === 'libretranslate' ? 'LibreTranslate' : 
                      'Translation service'}
               </div>
@@ -540,9 +608,12 @@ const DictionaryPanel = ({ word, onClose, lookupWord, isDbReady, speakWord }) =>
 
 // Main App Component
 function App() {
+  const [currentMode, setCurrentMode] = useState(''); // '', 'reader', 'learning'
   const [currentText, setCurrentText] = useState('');
   const [selectedWord, setSelectedWord] = useState('');
   const [showReader, setShowReader] = useState(false);
+  const [showTextInput, setShowTextInput] = useState(false);
+  const [selectedMaterial, setSelectedMaterial] = useState(null);
   
   // Initialize enhanced dictionary hook
   const { isLoading, isReady, error, lookupWord, speakWord, getStats, retry } = useDictionary();
@@ -555,9 +626,26 @@ function App() {
     }
   }, [isReady, getStats]);
 
+  const handleModeSelect = (mode) => {
+    setCurrentMode(mode);
+    if (mode === 'reader') {
+      setShowTextInput(true);
+    }
+  };
+
+  const handleBackToModeSelection = () => {
+    setCurrentMode('');
+    setShowTextInput(false);
+    setShowReader(false);
+    setCurrentText('');
+    setSelectedWord('');
+    setSelectedMaterial(null);
+  };
+
   const handleTextSubmit = (text) => {
     setCurrentText(text);
     setShowReader(true);
+    setShowTextInput(false);
     setSelectedWord('');
   };
 
@@ -567,12 +655,20 @@ function App() {
 
   const handleBackToInput = () => {
     setShowReader(false);
-    setCurrentText('');
+    setShowTextInput(true);
     setSelectedWord('');
   };
 
   const handleCloseDictionary = () => {
     setSelectedWord('');
+  };
+
+  const handleMaterialSelect = (material) => {
+    setSelectedMaterial(material);
+  };
+
+  const handleBackToMaterials = () => {
+    setSelectedMaterial(null);
   };
 
   // Show loading screen while initializing
@@ -619,9 +715,17 @@ function App() {
           </div>
         )}
 
-        {!showReader ? (
-          <TextInput onTextSubmit={handleTextSubmit} />
-        ) : (
+        {/* Mode Selection */}
+        {!currentMode && (
+          <ModeSelector onModeSelect={handleModeSelect} />
+        )}
+
+        {/* Text Reader Flow */}
+        {currentMode === 'reader' && showTextInput && !showReader && (
+          <TextInput onTextSubmit={handleTextSubmit} onBack={handleBackToModeSelection} />
+        )}
+
+        {currentMode === 'reader' && showReader && (
           <div className="reader-container">
             <div>
               <InteractiveReader
@@ -652,12 +756,69 @@ function App() {
                     <li>📖 Dictionary meanings</li>
                     <li>🔍 Root word analysis</li>
                     <li>📚 Grammar explanations</li>
-                    <li>🔊 Pronunciation help</li>
+                    <li>📊 Pronunciation help</li>
                     <li>💡 Word suggestions</li>
                   </ul>
                   {isReady && (
                     <p style={{ fontSize: '0.875rem', color: '#6b7280', marginTop: '1rem' }}>
                       ✅ Enhanced with {stats?.totalWords?.toLocaleString()} words database
+                    </p>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Learning Materials Flow */}
+        {currentMode === 'learning' && !selectedMaterial && (
+          <div>
+            <div className="card" style={{ padding: '1rem', marginBottom: '1rem' }}>
+              <button onClick={handleBackToModeSelection} className="back-button">
+                <ArrowLeft className="icon" />
+                Back to Mode Selection
+              </button>
+            </div>
+            <LearningMaterialsSelector onMaterialSelect={handleMaterialSelect} />
+          </div>
+        )}
+
+        {currentMode === 'learning' && selectedMaterial && (
+          <div className="reader-container">
+            <div>
+              <LearningMaterialsViewer
+                material={selectedMaterial}
+                onBack={handleBackToMaterials}
+                onWordClick={handleWordClick}
+                speakWord={speakWord}
+              />
+            </div>
+            
+            <div>
+              {selectedWord && (
+                <DictionaryPanel
+                  word={selectedWord}
+                  onClose={handleCloseDictionary}
+                  lookupWord={lookupWord}
+                  speakWord={speakWord}
+                  isDbReady={isReady}
+                />
+              )}
+              
+              {!selectedWord && (
+                <div className="placeholder-state">
+                  <GraduationCap className="icon-xl" />
+                  <h3>Interactive Learning</h3>
+                  <p>Click on any Kannada text to see:</p>
+                  <ul style={{ textAlign: 'left', marginTop: '1rem' }}>
+                    <li>Dictionary meanings & analysis</li>
+                    <li>Pronunciation guides</li>
+                    <li>Grammar explanations</li>
+                    <li>Word breakdown & morphology</li>
+                  </ul>
+                  {isReady && (
+                    <p style={{ fontSize: '0.875rem', color: '#6b7280', marginTop: '1rem' }}>
+                      Enhanced with full dictionary database
                     </p>
                   )}
                 </div>

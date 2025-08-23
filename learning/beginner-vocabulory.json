@@ -1,0 +1,102 @@
+{
+  "id": "beginner-vocabulary",
+  "title": "Basic Kannada Words",
+  "description": "Essential vocabulary for beginners",
+  "level": "beginner",
+  "type": "vocabulary",
+  "sections": [
+    {
+      "id": "greetings",
+      "title": "Greetings & Politeness",
+      "subtitle": "Essential words for daily interaction",
+      "items": [
+        {
+          "kannada": "ನಮಸ್ಕಾರ",
+          "english": "Hello/Greetings (respectful)",
+          "romanization": "namaskara",
+          "context": "Universal greeting, used any time of day"
+        },
+        {
+          "kannada": "ಧನ್ಯವಾದ",
+          "english": "Thank you",
+          "romanization": "dhanyavaada",
+          "context": "Formal way to express gratitude"
+        },
+        {
+          "kannada": "ಹೇಗಿದ್ದೀರಿ",
+          "english": "How are you? (respectful)",
+          "romanization": "hegiddiri",
+          "context": "Asked to elders or in formal situations"
+        },
+        {
+          "kannada": "ಕ್ಷಮಿಸಿ",
+          "english": "Sorry/Excuse me",
+          "romanization": "kshmanisi",
+          "context": "Used to apologize or get attention"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family Members",
+      "subtitle": "Words for family relationships",
+      "items": [
+        {
+          "kannada": "ಅಮ್ಮ",
+          "english": "Mother",
+          "romanization": "amma",
+          "context": "Informal way to address mother"
+        },
+        {
+          "kannada": "ಅಪ್ಪ",
+          "english": "Father",
+          "romanization": "appa",
+          "context": "Informal way to address father"
+        },
+        {
+          "kannada": "ಅಣ್ಣ",
+          "english": "Elder brother",
+          "romanization": "aNNa",
+          "context": "Respectful term for older male"
+        },
+        {
+          "kannada": "ಅಕ್ಕ",
+          "english": "Elder sister",
+          "romanization": "akka",
+          "context": "Respectful term for older female"
+        }
+      ]
+    },
+    {
+      "id": "basic-words",
+      "title": "Basic Words",
+      "subtitle": "Common everyday vocabulary",
+      "items": [
+        {
+          "kannada": "ನೀರು",
+          "english": "Water",
+          "romanization": "niiru",
+          "context": "Essential daily word"
+        },
+        {
+          "kannada": "ಅನ್ನ",
+          "english": "Rice/Food",
+          "romanization": "anna",
+          "context": "Main staple food"
+        },
+        {
+          "kannada": "ಮನೆ",
+          "english": "House/Home",
+          "romanization": "mane",
+          "context": "Place where one lives"
+        },
+        {
+          "kannada": "ಊರು",
+          "english": "Town/Village",
+          "romanization": "uuru",
+          "context": "Place where one is from"
+        }
+      ]
+    }
+  ]
+}
