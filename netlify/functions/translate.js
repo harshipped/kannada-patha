@@ -1,5 +1,5 @@
 // netlify/functions/translate.js
-const fetch = require('node-fetch');
+// REMOVE THIS LINE: const fetch = require('node-fetch');
 
 exports.handler = async (event, context) => {
   // Handle CORS preflight requests
@@ -81,6 +81,10 @@ exports.handler = async (event, context) => {
 
 async function translateWithMyMemory(word) {
   try {
+    // Create AbortController for timeout
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 8000);
+    
     const response = await fetch(
       `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=kn|en`,
       { 
@@ -89,9 +93,11 @@ async function translateWithMyMemory(word) {
           'Accept': 'application/json',
           'User-Agent': 'KannadaReader/1.0'
         },
-        timeout: 8000
+        signal: controller.signal
       }
     );
+    
+    clearTimeout(timeoutId);
     
     if (response.ok) {
       const data = await response.json();
@@ -115,6 +121,10 @@ async function translateWithMyMemory(word) {
 
 async function translateWithLibreTranslate(word) {
   try {
+    // Create AbortController for timeout
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
+    
     const response = await fetch('https://libretranslate.de/translate', {
       method: 'POST',
       headers: {
@@ -128,8 +138,10 @@ async function translateWithLibreTranslate(word) {
         target: 'en',
         format: 'text'
       }),
-      timeout: 10000
+      signal: controller.signal
     });
+    
+    clearTimeout(timeoutId);
     
     if (response.ok) {
       const data = await response.json();
