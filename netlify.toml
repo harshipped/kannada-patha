@@ -45,5 +45,5 @@
     Content-Type = "application/octet-stream"
 
 # Function-specific settings
-[[functions."translate"]]
+[functions.translate]
   included_files = ["node_modules/**"]
