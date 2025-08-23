@@ -610,77 +610,147 @@ const calculateConfidence = (originalWord, rule, stem) => {
 };
 
 // Enhanced romanization with better character mapping and consonant clusters
+// Enhanced romanization with proper halanta and vowel mark handling
 export const generateFallbackRomanization = (kannadaWord) => {
-  const enhancedMapping = {
-    // Vowels
-    'ಅ': 'a', 'ಆ': 'aa', 'ಇ': 'i', 'ಈ': 'ii', 'ಉ': 'u', 'ಊ': 'uu',
-    'ಋ': 'ru', 'ೠ': 'ruu', 'ಌ': 'lu', 'ೡ': 'luu',
-    'ಎ': 'e', 'ಏ': 'ee', 'ಐ': 'ai', 'ಒ': 'o', 'ಓ': 'oo', 'ಔ': 'au',
-
-    // Consonants with improved romanization
-    'ಕ': 'ka', 'ಖ': 'kha', 'ಗ': 'ga', 'ಘ': 'gha', 'ಙ': 'nga',
-    'ಚ': 'cha', 'ಛ': 'chha', 'ಜ': 'ja', 'ಝ': 'jha', 'ಞ': 'nja',
-    'ಟ': 'Ta', 'ಠ': 'Tha', 'ಡ': 'Da', 'ಢ': 'Dha', 'ಣ': 'Na',
-    'ತ': 'ta', 'ಥ': 'tha', 'ದ': 'da', 'ಧ': 'dha', 'ನ': 'na',
-    'ಪ': 'pa', 'ಫ': 'pha', 'ಬ': 'ba', 'ಭ': 'bha', 'ಮ': 'ma',
-    'ಯ': 'ya', 'ರ': 'ra', 'ಲ': 'la', 'ವ': 'va',
-    'ಶ': 'sha', 'ಷ': 'Sha', 'ಸ': 'sa', 'ಹ': 'ha',
-    'ಳ': 'La', 'ೞ': 'zha', 'ೱ': 'fa',
-
-    // Diacritics and modifiers
-    'ಂ': 'm', 'ಃ': 'h', '್': '', 
-    'ಾ': 'aa', 'ಿ': 'i', 'ೀ': 'ii', 'ು': 'u', 'ೂ': 'uu',
-    'ೃ': 'ru', 'ೄ': 'ruu', 'ೆ': 'e', 'ೇ': 'ee', 'ೈ': 'ai',
-    'ೊ': 'o', 'ೋ': 'oo', 'ೌ': 'au', 'ೢ': 'lu', 'ೣ': 'luu',
-
-    // Numbers
-    '೦': '0', '೧': '1', '೨': '2', '೩': '3', '೪': '4',
-    '೫': '5', '೬': '6', '೭': '7', '೮': '8', '೯': '9',
-
-    // Punctuation
-    '೥': '.', '।': '.', '॥': '..'
+  const consonantMap = {
+    'ಕ': 'k', 'ಖ': 'kh', 'ಗ': 'g', 'ಘ': 'gh', 'ಙ': 'ng',
+    'ಚ': 'ch', 'ಛ': 'chh', 'ಜ': 'j', 'ಝ': 'jh', 'ಞ': 'nj',
+    'ಟ': 'T', 'ಠ': 'Th', 'ಡ': 'D', 'ಢ': 'Dh', 'ಣ': 'N',
+    'ತ': 't', 'ಥ': 'th', 'ದ': 'd', 'ಧ': 'dh', 'ನ': 'n',
+    'ಪ': 'p', 'ಫ': 'ph', 'ಬ': 'b', 'ಭ': 'bh', 'ಮ': 'm',
+    'ಯ': 'y', 'ರ': 'r', 'ಲ': 'l', 'ವ': 'v',
+    'ಶ': 'sh', 'ಷ': 'Sh', 'ಸ': 's', 'ಹ': 'h',
+    'ಳ': 'L', 'ೞ': 'zh', 'ೱ': 'f'
   };
 
+  const vowelMap = {
+    'ಅ': 'a', 'ಆ': 'aa', 'ಇ': 'i', 'ಈ': 'ii', 'ಉ': 'u', 'ಊ': 'uu',
+    'ಋ': 'ru', 'ೠ': 'ruu', 'ಌ': 'lu', 'ೡ': 'luu',
+    'ಎ': 'e', 'ಏ': 'ee', 'ಐ': 'ai', 'ಒ': 'o', 'ಓ': 'oo', 'ಔ': 'au'
+  };
+
+  const vowelSignMap = {
+    'ಾ': 'aa', 'ಿ': 'i', 'ೀ': 'ii', 'ು': 'u', 'ೂ': 'uu',
+    'ೃ': 'ru', 'ೄ': 'ruu', 'ೆ': 'e', 'ೇ': 'ee', 'ೈ': 'ai',
+    'ೊ': 'o', 'ೋ': 'oo', 'ೌ': 'au', 'ೢ': 'lu', 'ೣ': 'luu'
+  };
+
+  const specialChars = {
+    'ಂ': 'm', 'ಃ': 'h', '಼': '', // nukta
+    '್': '', // halanta/virama
+    '೦': '0', '೧': '1', '೨': '2', '೩': '3', '೪': '4',
+    '೫': '5', '೬': '6', '೭': '7', '೮': '8', '೯': '9'
+  };
+
+  // Normalize the input to handle different Unicode forms
+  const normalizedWord = kannadaWord.normalize('NFC');
   let result = '';
   let i = 0;
-  
-  while (i < kannadaWord.length) {
-    const char = kannadaWord[i];
-    const nextChar = kannadaWord[i + 1];
-    
-    // Handle consonant clusters and combinations
-    if (char === '್' && nextChar && enhancedMapping[nextChar]) {
-      // Virama (halant) - remove 'a' from previous consonant
+
+  while (i < normalizedWord.length) {
+    const char = normalizedWord[i];
+    const nextChar = normalizedWord[i + 1];
+    const prevChar = i > 0 ? normalizedWord[i - 1] : null;
+
+    // Handle standalone vowels
+    if (vowelMap[char]) {
+      result += vowelMap[char];
+      i++;
+      continue;
+    }
+
+    // Handle consonants
+    if (consonantMap[char]) {
+      let consonantSound = consonantMap[char];
+      let addInherentVowel = true;
+
+      // Check if next character is halanta (್)
+      if (nextChar === '್') {
+        addInherentVowel = false;
+        i++; // Skip the halanta in next iteration
+      }
+      // Check if next character is a vowel sign
+      else if (vowelSignMap[nextChar]) {
+        consonantSound += vowelSignMap[nextChar];
+        addInherentVowel = false;
+        i++; // Skip the vowel sign in next iteration
+      }
+      // Check if next character is anusvara or visarga
+      else if (nextChar === 'ಂ' || nextChar === 'ಃ') {
+        // Keep inherent vowel, handle special char in next iteration
+      }
+      // Check if we're at the end of word or next char is non-Kannada
+      else if (i === normalizedWord.length - 1 || 
+               (!consonantMap[nextChar] && !vowelMap[nextChar] && 
+                !vowelSignMap[nextChar] && !specialChars[nextChar])) {
+        // At word boundary - handle common endings
+        const remainingWord = normalizedWord.substring(i);
+        if (remainingWord === 'ನ್' || remainingWord === 'ಮ್' || 
+            remainingWord === 'ರ್' || remainingWord === 'ಲ್') {
+          addInherentVowel = false;
+        }
+      }
+
+      result += consonantSound;
+      
+      // Add inherent vowel 'a' only if needed
+      if (addInherentVowel) {
+        result += 'a';
+      }
+
+      i++;
+      continue;
+    }
+
+    // Handle vowel signs (shouldn't occur alone, but just in case)
+    if (vowelSignMap[char]) {
+      result += vowelSignMap[char];
+      i++;
+      continue;
+    }
+
+    // Handle special characters
+    if (specialChars[char]) {
+      const specialSound = specialChars[char];
+      if (specialSound) {
+        result += specialSound;
+      }
+      i++;
+      continue;
+    }
+
+    // Handle halanta specially - remove trailing 'a' from previous consonant
+    if (char === '್') {
       if (result.endsWith('a')) {
         result = result.slice(0, -1);
       }
-      i++; // Skip the virama
+      i++;
       continue;
     }
-    
-    // Handle special two-character combinations
-    const twoChar = char + (nextChar || '');
-    if (enhancedMapping[twoChar]) {
-      result += enhancedMapping[twoChar];
-      i += 2;
-      continue;
-    }
-    
-    // Handle single character
-    result += enhancedMapping[char] || char;
+
+    // Handle unknown characters (pass through)
+    result += char;
     i++;
   }
-  
-  // Clean up and improve readability
+
+  // Post-processing cleanup
   result = result
-    .replace(/([kgcjTDtdpb])a([kgcjTDtdpb])/g, '$1$2') // Remove intermediate 'a' in clusters
-    .replace(/aa+/g, 'aa') // Normalize long vowels
+    // Fix common double consonant patterns
+    .replace(/([kgcjTDtdpbmnrlvshSL])a([kgcjTDtdpbmnrlvshSL])/g, '$1$2')
+    // Clean up multiple consecutive vowels
+    .replace(/aa+/g, 'aa')
     .replace(/ii+/g, 'ii')
     .replace(/uu+/g, 'uu')
     .replace(/ee+/g, 'ee')
-    .replace(/oo+/g, 'oo');
-  
-  return result;
+    .replace(/oo+/g, 'oo')
+    // Fix specific common patterns
+    .replace(/alli$/, 'alli') // Ensure proper ending for locative case
+    .replace(/inda$/, 'inda') // Ensure proper ending for ablative case
+    .replace(/ige$/, 'ige')   // Ensure proper ending for dative case
+    // Remove any trailing 'a' that might be incorrect for final consonants
+    .replace(/([kgcjTDtdpbmnrlvshSL])a$/, '$1');
+
+  return result || kannadaWord; // Fallback to original if processing fails
 };
 
 // Enhanced grammar explanation system
