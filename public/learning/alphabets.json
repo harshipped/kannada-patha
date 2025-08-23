@@ -1,7 +1,7 @@
 {
   "id": "alphabets",
   "title": "Kannada Alphabets",
-  "description": "Learn the basic Kannada script - vowels and consonants",
+  "description": "Complete Kannada script - vowels, consonants, and conjunct consonants",
   "level": "beginner",
   "type": "alphabet",
   "sections": [
@@ -10,113 +10,70 @@
       "title": "Vowels (ಸ್ವರಗಳು)",
       "subtitle": "Basic vowel sounds in Kannada",
       "items": [
-        {
-          "kannada": "ಅ",
-          "english": "a (as in 'but')",
-          "romanization": "a",
-          "example": {
-            "word": "ಅಮ್ಮ",
-            "meaning": "mother",
-            "romanization": "amma"
-          }
-        },
-        {
-          "kannada": "ಆ",
-          "english": "aa (as in 'father')",
-          "romanization": "aa",
-          "example": {
-            "word": "ಆಕಾಶ",
-            "meaning": "sky",
-            "romanization": "aakaasha"
-          }
-        },
-        {
-          "kannada": "ಇ",
-          "english": "i (as in 'bit')",
-          "romanization": "i",
-          "example": {
-            "word": "ಇಲ್ಲಿ",
-            "meaning": "here",
-            "romanization": "illi"
-          }
-        },
-        {
-          "kannada": "ಈ",
-          "english": "ii (as in 'beet')",
-          "romanization": "ii",
-          "example": {
-            "word": "ಈಗ",
-            "meaning": "now",
-            "romanization": "iiga"
-          }
-        },
-        {
-          "kannada": "ಉ",
-          "english": "u (as in 'put')",
-          "romanization": "u",
-          "example": {
-            "word": "ಉತ್ತರ",
-            "meaning": "answer",
-            "romanization": "uttara"
-          }
-        }
+        { "kannada": "ಅ", "english": "a", "romanization": "a", "example": { "word": "ಅಕ್ಕ", "meaning": "elder sister", "romanization": "akka" } },
+        { "kannada": "ಆ", "english": "aa", "romanization": "aa", "example": { "word": "ಆನೆ", "meaning": "elephant", "romanization": "aane" } },
+        { "kannada": "ಇ", "english": "i", "romanization": "i", "example": { "word": "ಇಲಿ", "meaning": "mouse", "romanization": "ili" } },
+        { "kannada": "ಈ", "english": "ii", "romanization": "ii", "example": { "word": "ಈಗ", "meaning": "now", "romanization": "iiga" } },
+        { "kannada": "ಉ", "english": "u", "romanization": "u", "example": { "word": "ಉಡುಗೆ", "meaning": "dress", "romanization": "uduge" } },
+        { "kannada": "ಊ", "english": "uu", "romanization": "uu", "example": { "word": "ಊರು", "meaning": "village", "romanization": "ooru" } },
+        { "kannada": "ಋ", "english": "ru", "romanization": "ru", "example": { "word": "ಋತು", "meaning": "season", "romanization": "ritu" } },
+        { "kannada": "ಎ", "english": "e", "romanization": "e", "example": { "word": "ಎಲೆ", "meaning": "leaf", "romanization": "ele" } },
+        { "kannada": "ಏ", "english": "ee", "romanization": "ee", "example": { "word": "ಏಣಿ", "meaning": "ladder", "romanization": "eeni" } },
+        { "kannada": "ಐ", "english": "ai", "romanization": "ai", "example": { "word": "ಐದು", "meaning": "five", "romanization": "aidu" } },
+        { "kannada": "ಒ", "english": "o", "romanization": "o", "example": { "word": "ಒಂಟೆ", "meaning": "camel", "romanization": "onte" } },
+        { "kannada": "ಓ", "english": "oo", "romanization": "oo", "example": { "word": "ಓದು", "meaning": "study", "romanization": "oodu" } },
+        { "kannada": "ಔ", "english": "au", "romanization": "au", "example": { "word": "ಔಷಧಿ", "meaning": "medicine", "romanization": "aushadhi" } }
       ]
     },
     {
       "id": "consonants",
-      "title": "Consonants (ವ್ಯಞ್ಜನಗಳು)",
+      "title": "Consonants (ವ್ಯಂಜನಗಳು)",
       "subtitle": "Basic consonant sounds in Kannada",
       "items": [
-        {
-          "kannada": "ಕ",
-          "english": "ka",
-          "romanization": "ka",
-          "example": {
-            "word": "ಕಮಲ",
-            "meaning": "lotus",
-            "romanization": "kamala"
-          }
-        },
-        {
-          "kannada": "ಗ",
-          "english": "ga",
-          "romanization": "ga",
-          "example": {
-            "word": "ಗಣಿತ",
-            "meaning": "mathematics",
-            "romanization": "ganita"
-          }
-        },
-        {
-          "kannada": "ಚ",
-          "english": "cha",
-          "romanization": "cha",
-          "example": {
-            "word": "ಚಂದ್ರ",
-            "meaning": "moon",
-            "romanization": "chandra"
-          }
-        },
-        {
-          "kannada": "ತ",
-          "english": "ta",
-          "romanization": "ta",
-          "example": {
-            "word": "ತಾಯಿ",
-            "meaning": "mother",
-            "romanization": "taayi"
-          }
-        },
-        {
-          "kannada": "ನ",
-          "english": "na",
-          "romanization": "na",
-          "example": {
-            "word": "ನಮ್ಮ",
-            "meaning": "our",
-            "romanization": "namma"
-          }
-        }
+        { "kannada": "ಕ", "english": "ka", "romanization": "ka", "example": { "word": "ಕಾಗೆ", "meaning": "crow", "romanization": "kaage" } },
+        { "kannada": "ಖ", "english": "kha", "romanization": "kha", "example": { "word": "ಖಡ್ಗ", "meaning": "sword", "romanization": "khadga" } },
+        { "kannada": "ಗ", "english": "ga", "romanization": "ga", "example": { "word": "ಗಿರಿ", "meaning": "hill", "romanization": "giri" } },
+        { "kannada": "ಘ", "english": "gha", "romanization": "gha", "example": { "word": "ಘಂಟೆ", "meaning": "bell", "romanization": "ghante" } },
+        { "kannada": "ಙ", "english": "nga", "romanization": "nga", "example": { "word": "ಅಂಗ", "meaning": "limb", "romanization": "anga" } },
+
+        { "kannada": "ಚ", "english": "cha", "romanization": "cha", "example": { "word": "ಚಂದ್ರ", "meaning": "moon", "romanization": "chandra" } },
+        { "kannada": "ಛ", "english": "chha", "romanization": "chha", "example": { "word": "ಛತ್ರಿ", "meaning": "umbrella", "romanization": "chhatri" } },
+        { "kannada": "ಜ", "english": "ja", "romanization": "ja", "example": { "word": "ಜಲ", "meaning": "water", "romanization": "jala" } },
+        { "kannada": "ಝ", "english": "jha", "romanization": "jha", "example": { "word": "ಝರಿ", "meaning": "stream", "romanization": "jhari" } },
+        { "kannada": "ಞ", "english": "nya", "romanization": "nya", "example": { "word": "ಜ್ಞಾ", "meaning": "knowledge", "romanization": "jnyaana" } },
+
+        { "kannada": "ಟ", "english": "ṭa", "romanization": "ṭa", "example": { "word": "ಟಗರು", "meaning": "ox", "romanization": "tagaru" } },
+        { "kannada": "ಠ", "english": "ṭha", "romanization": "ṭha", "example": { "word": "ಠಕ್ಕನೆ", "meaning": "suddenly", "romanization": "ṭhakkane" } },
+        { "kannada": "ಡ", "english": "ḍa", "romanization": "ḍa", "example": { "word": "ಡಬ್ಬಿ", "meaning": "box", "romanization": "dabbi" } },
+        { "kannada": "ಢ", "english": "ḍha", "romanization": "ḍha", "example": { "word": "ಢಕ್ಕೆ", "meaning": "drum", "romanization": "dhakke" } },
+        { "kannada": "ಣ", "english": "ṇa", "romanization": "ṇa", "example": { "word": "ಮಣ", "meaning": "gem", "romanization": "maṇa" } },
+
+        { "kannada": "ತ", "english": "ta", "romanization": "ta", "example": { "word": "ತಾಯಿ", "meaning": "mother", "romanization": "taayi" } },
+        { "kannada": "ಥ", "english": "tha", "romanization": "tha", "example": { "word": "ಥಳ", "meaning": "shine", "romanization": "thala" } },
+        { "kannada": "ದ", "english": "da", "romanization": "da", "example": { "word": "ದೀಪ", "meaning": "lamp", "romanization": "deepa" } },
+        { "kannada": "ಧ", "english": "dha", "romanization": "dha", "example": { "word": "ಧನುಷ್", "meaning": "bow", "romanization": "dhanush" } },
+        { "kannada": "ನ", "english": "na", "romanization": "na", "example": { "word": "ನದಿ", "meaning": "river", "romanization": "nadi" } },
+
+        { "kannada": "ಪ", "english": "pa", "romanization": "pa", "example": { "word": "ಪಟ", "meaning": "silk cloth", "romanization": "paṭa" } },
+        { "kannada": "ಫ", "english": "pha", "romanization": "pha", "example": { "word": "ಫಲ", "meaning": "fruit", "romanization": "phala" } },
+        { "kannada": "ಬ", "english": "ba", "romanization": "ba", "example": { "word": "ಬಾಳೆ", "meaning": "banana", "romanization": "baale" } },
+        { "kannada": "ಭ", "english": "bha", "romanization": "bha", "example": { "word": "ಭೂಮಿ", "meaning": "earth", "romanization": "bhoomi" } },
+        { "kannada": "ಮ", "english": "ma", "romanization": "ma", "example": { "word": "ಮನೆ", "meaning": "house", "romanization": "mane" } },
+
+        { "kannada": "ಯ", "english": "ya", "romanization": "ya", "example": { "word": "ಯಾನ", "meaning": "journey", "romanization": "yaana" } },
+        { "kannada": "ರ", "english": "ra", "romanization": "ra", "example": { "word": "ರಾತ್ರಿ", "meaning": "night", "romanization": "raatri" } },
+        { "kannada": "ಲ", "english": "la", "romanization": "la", "example": { "word": "ಲೋಟ", "meaning": "cup", "romanization": "lota" } },
+        { "kannada": "ವ", "english": "va", "romanization": "va", "example": { "word": "ವಿಮಾನ", "meaning": "airplane", "romanization": "vimana" } },
+
+        { "kannada": "ಶ", "english": "sha", "romanization": "sha", "example": { "word": "ಶಕ್ತಿ", "meaning": "power", "romanization": "shakti" } },
+        { "kannada": "ಷ", "english": "ṣa", "romanization": "ṣa", "example": { "word": "ಷಟ್ಕೋಣ", "meaning": "hexagon", "romanization": "ṣaṭkoṇa" } },
+        { "kannada": "ಸ", "english": "sa", "romanization": "sa", "example": { "word": "ಸೂರ್ಯ", "meaning": "sun", "romanization": "soorya" } },
+        { "kannada": "ಹ", "english": "ha", "romanization": "ha", "example": { "word": "ಹಣ್ಣು", "meaning": "fruit", "romanization": "hannu" } },
+
+        { "kannada": "ಳ", "english": "ḷa", "romanization": "ḷa", "example": { "word": "ಬೆಳಕು", "meaning": "light", "romanization": "beḷaku" } },
+        { "kannada": "ಕ್ಷ", "english": "kṣa", "romanization": "ksha", "example": { "word": "ಕ್ಷಮೆ", "meaning": "forgiveness", "romanization": "kshame" } },
+        { "kannada": "ಜ್ಞ", "english": "jña", "romanization": "jna", "example": { "word": "ಜ್ಞಾನ", "meaning": "knowledge", "romanization": "jnaana" } },
+        { "kannada": "ಶ್ರ", "english": "shra", "romanization": "shra", "example": { "word": "ಶ್ರದ್ಧೆ", "meaning": "faith", "romanization": "shraddhe" } }
       ]
     }
   ]
