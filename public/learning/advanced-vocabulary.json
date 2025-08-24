@@ -1,0 +1,813 @@
+{
+  "id": "advanced-vocabulary-part1",
+  "title": "Advanced Kannada Words",
+  "description": "Advanced emotions and abstract ideas",
+  "level": "advanced",
+  "type": "vocabulary",
+  "sections": [
+    {
+      "id": "advanced-emotions",
+      "title": "Advanced Emotions",
+      "subtitle": "Subtle emotional expressions",
+      "items": [
+        {
+          "kannada": "ಆನಂದ",
+          "english": "Bliss",
+          "romanization": "aananda",
+          "context": "Deep joy or spiritual happiness"
+        },
+        {
+          "kannada": "ವಿಷಾದ",
+          "english": "Melancholy",
+          "romanization": "vishaada",
+          "context": "State of deep sadness or depression"
+        },
+        {
+          "kannada": "ಹರ್ಷ",
+          "english": "Delight",
+          "romanization": "harsha",
+          "context": "Intense feeling of happiness"
+        },
+        {
+          "kannada": "ಸಂಕಟ",
+          "english": "Distress",
+          "romanization": "sankata",
+          "context": "Difficult or troubling situation"
+        },
+        {
+          "kannada": "ದ್ವೇಷ",
+          "english": "Hatred",
+          "romanization": "dvesha",
+          "context": "Strong feeling of dislike"
+        },
+        {
+          "kannada": "ಭಯಾನಕ",
+          "english": "Terrifying",
+          "romanization": "bhayaanaka",
+          "context": "Something extremely frightening"
+        },
+        {
+          "kannada": "ಅಭಿಮಾನ",
+          "english": "Affection / Pride",
+          "romanization": "abhimaana",
+          "context": "Can mean love for someone or self-respect"
+        },
+        {
+          "kannada": "ಕೋಪ",
+          "english": "Anger",
+          "romanization": "kopa",
+          "context": "Strong feeling of displeasure"
+        },
+        {
+          "kannada": "ಅವಮಾನ",
+          "english": "Humiliation",
+          "romanization": "avamaana",
+          "context": "Disrespect or insult"
+        },
+        {
+          "kannada": "ಗೌರವ",
+          "english": "Respect",
+          "romanization": "gaurava",
+          "context": "Feeling of esteem for someone"
+        }
+      ]
+    },
+    {
+      "id": "abstract-ideas",
+      "title": "Abstract Ideas",
+      "subtitle": "Concepts and higher-level thinking",
+      "items": [
+        {
+          "kannada": "ಸತ್ಯ",
+          "english": "Truth",
+          "romanization": "satya",
+          "context": "Concept of reality and honesty"
+        },
+        {
+          "kannada": "ಅನಿತ್ಯ",
+          "english": "Impermanence",
+          "romanization": "anitya",
+          "context": "Buddhist and philosophical term for transience"
+        },
+        {
+          "kannada": "ಧರ್ಮ",
+          "english": "Righteousness / Duty",
+          "romanization": "dharma",
+          "context": "Moral duty or law in Indian philosophy"
+        },
+        {
+          "kannada": "ಮೋಕ್ಷ",
+          "english": "Liberation",
+          "romanization": "moksha",
+          "context": "Spiritual freedom from the cycle of birth and death"
+        },
+        {
+          "kannada": "ಶಾಂತಿ",
+          "english": "Peace",
+          "romanization": "shaanti",
+          "context": "State of calm and absence of conflict"
+        },
+        {
+          "kannada": "ನ್ಯಾಯ",
+          "english": "Justice",
+          "romanization": "nyaaya",
+          "context": "Fairness, law, or correctness"
+        },
+        {
+          "kannada": "ಜ್ಞಾನ",
+          "english": "Knowledge",
+          "romanization": "jnaana",
+          "context": "Spiritual or intellectual knowledge"
+        },
+        {
+          "kannada": "ಭಕ್ತಿ",
+          "english": "Devotion",
+          "romanization": "bhakti",
+          "context": "Spiritual love or faith"
+        },
+        {
+          "kannada": "ಅನುರಾಗ",
+          "english": "Affection / Love",
+          "romanization": "anuraaga",
+          "context": "Deep fondness towards someone"
+        },
+        {
+          "kannada": "ವೈರಾಗ್ಯ",
+          "english": "Detachment",
+          "romanization": "vairaagya",
+          "context": "Renunciation or freedom from desire"
+        }
+      ]
+    },
+    {
+      "id": "advanced-concepts",
+      "title": "Advanced Abstract Concepts",
+      "subtitle": "Philosophical and cultural ideas",
+      "items": [
+        {
+          "kannada": "ಸಂಸ್ಕೃತಿ",
+          "english": "Culture",
+          "romanization": "samskruti",
+          "context": "Collective customs and traditions of society"
+        },
+        {
+          "kannada": "ಪರಂಪರೆ",
+          "english": "Tradition",
+          "romanization": "parampare",
+          "context": "Practices passed down generations"
+        },
+        {
+          "kannada": "ಸಮಾಧಿ",
+          "english": "Meditative Absorption",
+          "romanization": "samadhi",
+          "context": "Deep yogic or spiritual concentration"
+        },
+        {
+          "kannada": "ಅದ್ಭುತ",
+          "english": "Wonderful / Miraculous",
+          "romanization": "adbhuta",
+          "context": "Something extraordinary"
+        },
+        {
+          "kannada": "ಚಿಂತನೆ",
+          "english": "Thought / Reflection",
+          "romanization": "chintane",
+          "context": "Act of thinking deeply"
+        },
+        {
+          "kannada": "ಸಮತೋಲನ",
+          "english": "Balance",
+          "romanization": "samatolana",
+          "context": "State of stability or equilibrium"
+        },
+        {
+          "kannada": "ಭಾವನೆ",
+          "english": "Emotion / Feeling",
+          "romanization": "bhaavane",
+          "context": "Human emotional state"
+        },
+        {
+          "kannada": "ವಿಶ್ವಾಸ",
+          "english": "Faith / Trust",
+          "romanization": "vishaasa",
+          "context": "Belief in someone or something"
+        },
+        {
+          "kannada": "ಕಲ್ಪನೆ",
+          "english": "Imagination",
+          "romanization": "kalpane",
+          "context": "Creative or mental visualization"
+        },
+        {
+          "kannada": "ಅಹಂಕಾರ",
+          "english": "Ego",
+          "romanization": "ahankaara",
+          "context": "Sense of self or pride"
+        }
+      ]
+    },
+    {
+      "id": "literary-terms",
+      "title": "Literary Terms",
+      "subtitle": "Words used in literature and writing",
+      "items": [
+        {
+          "kannada": "ಕಾವ್ಯ",
+          "english": "Poetry",
+          "romanization": "kaavya",
+          "context": "Art of composing poems"
+        },
+        {
+          "kannada": "ಗದ್ಯ",
+          "english": "Prose",
+          "romanization": "gadya",
+          "context": "Ordinary written or spoken language"
+        },
+        {
+          "kannada": "ಪದ್ಯ",
+          "english": "Verse",
+          "romanization": "padya",
+          "context": "A line of poetry"
+        },
+        {
+          "kannada": "ಅಲಂಕಾರ",
+          "english": "Figure of Speech",
+          "romanization": "alankaara",
+          "context": "Stylistic ornamentation in literature"
+        },
+        {
+          "kannada": "ಉಪಮೆ",
+          "english": "Simile",
+          "romanization": "upame",
+          "context": "Comparison using 'like' or 'as'"
+        },
+        {
+          "kannada": "ರೂಪಕ",
+          "english": "Metaphor",
+          "romanization": "roopaka",
+          "context": "Direct symbolic comparison"
+        },
+        {
+          "kannada": "ಕಾದಂಬರಿ",
+          "english": "Novel",
+          "romanization": "kaadambari",
+          "context": "Long fictional narrative"
+        },
+        {
+          "kannada": "ನಾಟಕ",
+          "english": "Drama / Play",
+          "romanization": "naataka",
+          "context": "Theatrical performance"
+        },
+        {
+          "kannada": "ಕಥೆ",
+          "english": "Story",
+          "romanization": "kathe",
+          "context": "Narrative of events"
+        },
+        {
+          "kannada": "ಪ್ರಬಂಧ",
+          "english": "Essay / Treatise",
+          "romanization": "prabandha",
+          "context": "Extended written discourse"
+        }
+      ]
+    },
+    {
+      "id": "philosophical-terms",
+      "title": "Philosophical Terms",
+      "subtitle": "Concepts in Indian and world philosophy",
+      "items": [
+        {
+          "kannada": "ತತ್ವ",
+          "english": "Principle / Element",
+          "romanization": "tatva",
+          "context": "Fundamental truth or element"
+        },
+        {
+          "kannada": "ವೇದಾಂತ",
+          "english": "Vedanta Philosophy",
+          "romanization": "vedaanta",
+          "context": "Indian philosophical tradition"
+        },
+        {
+          "kannada": "ಆತ್ಮ",
+          "english": "Soul / Self",
+          "romanization": "aatma",
+          "context": "Inner essence of a being"
+        },
+        {
+          "kannada": "ಬ್ರಹ್ಮ",
+          "english": "Supreme Reality",
+          "romanization": "brahma",
+          "context": "Ultimate reality in Vedantic thought"
+        },
+        {
+          "kannada": "ಮಾಯಾ",
+          "english": "Illusion",
+          "romanization": "maayaa",
+          "context": "Philosophical concept of false appearance"
+        },
+        {
+          "kannada": "ಕರ್ಮ",
+          "english": "Action / Deed",
+          "romanization": "karma",
+          "context": "Actions and their consequences"
+        },
+        {
+          "kannada": "ಸಂಸಾರ",
+          "english": "Cycle of Life",
+          "romanization": "samsaara",
+          "context": "Birth, death, and rebirth cycle"
+        },
+        {
+          "kannada": "ಅದ್ವೈತ",
+          "english": "Non-dualism",
+          "romanization": "advaita",
+          "context": "Philosophy of unity of self and reality"
+        },
+        {
+          "kannada": "ದ್ವೈತ",
+          "english": "Dualism",
+          "romanization": "dvaita",
+          "context": "Philosophy of separation between God and soul"
+        },
+        {
+          "kannada": "ಶೂನ್ಯ",
+          "english": "Void / Emptiness",
+          "romanization": "shoonya",
+          "context": "Concept of emptiness in Buddhist thought"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-terms",
+      "title": "Knowledge & Scholarship",
+      "subtitle": "Learning and intellectual activities",
+      "items": [
+        {
+          "kannada": "ವಿದ್ಯಾ",
+          "english": "Education",
+          "romanization": "vidyaa",
+          "context": "Formal and informal learning"
+        },
+        {
+          "kannada": "ಪಾಠಶಾಲೆ",
+          "english": "School",
+          "romanization": "paathashaale",
+          "context": "Place of learning"
+        },
+        {
+          "kannada": "ಗುರು",
+          "english": "Teacher",
+          "romanization": "guru",
+          "context": "Respected teacher or mentor"
+        },
+        {
+          "kannada": "ಶಿಷ್ಯ",
+          "english": "Disciple",
+          "romanization": "shishya",
+          "context": "Learner or student"
+        },
+        {
+          "kannada": "ಶೋಧನೆ",
+          "english": "Research",
+          "romanization": "shodane",
+          "context": "Investigation or academic study"
+        },
+        {
+          "kannada": "ಪ್ರಬಂಧ",
+          "english": "Thesis / Dissertation",
+          "romanization": "prabandha",
+          "context": "Extended academic work"
+        },
+        {
+          "kannada": "ಗ್ರಂಥ",
+          "english": "Scripture / Text",
+          "romanization": "grantha",
+          "context": "Religious or scholarly book"
+        },
+        {
+          "kannada": "ಅಧ್ಯಯನ",
+          "english": "Study",
+          "romanization": "adhyayana",
+          "context": "Act of learning deeply"
+        },
+        {
+          "kannada": "ಪಠಣ",
+          "english": "Recitation",
+          "romanization": "pathana",
+          "context": "Reading aloud or chanting"
+        },
+        {
+          "kannada": "ಅನುವಾದ",
+          "english": "Translation",
+          "romanization": "anuvaada",
+          "context": "Converting from one language to another"
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "title": "Politics & Governance",
+      "subtitle": "Terms related to administration and politics",
+      "items": [
+        {
+          "kannada": "ಸಂವಿಧಾನ",
+          "english": "Constitution",
+          "romanization": "samvidhaana",
+          "context": "Fundamental law of a nation"
+        },
+        {
+          "kannada": "ಸರ್ಕಾರ",
+          "english": "Government",
+          "romanization": "sarkaara",
+          "context": "Authority governing a state"
+        },
+        {
+          "kannada": "ಪ್ರಜಾಪ್ರಭುತ್ವ",
+          "english": "Democracy",
+          "romanization": "prajaaprabhutva",
+          "context": "System of governance by the people"
+        },
+        {
+          "kannada": "ರಾಜತಂತ್ರ",
+          "english": "Monarchy",
+          "romanization": "raajatantara",
+          "context": "Rule by a king or queen"
+        },
+        {
+          "kannada": "ಚುನಾವಣೆ",
+          "english": "Election",
+          "romanization": "chunaavane",
+          "context": "Process of voting for leaders"
+        },
+        {
+          "kannada": "ಪಕ್ಷ",
+          "english": "Political Party",
+          "romanization": "paksha",
+          "context": "Organized group in politics"
+        },
+        {
+          "kannada": "ವಿಧಾನಮಂಡಲ",
+          "english": "Legislature",
+          "romanization": "vidhaanamandala",
+          "context": "Law-making body"
+        },
+        {
+          "kannada": "ನ್ಯಾಯಾಂಗ",
+          "english": "Judiciary",
+          "romanization": "nyaayaanga",
+          "context": "System of courts"
+        },
+        {
+          "kannada": "ಕಾರ್ಯನಿರ್ವಹಣಾ ಅಂಗ",
+          "english": "Executive",
+          "romanization": "kaaryanirvahanaa anga",
+          "context": "Branch that implements laws"
+        },
+        {
+          "kannada": "ಹಕ್ಕು",
+          "english": "Right",
+          "romanization": "hakku",
+          "context": "Entitlement or privilege"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "title": "Law & Justice",
+      "subtitle": "Legal and judicial terms",
+      "items": [
+        {
+          "kannada": "ನ್ಯಾಯ",
+          "english": "Justice",
+          "romanization": "nyaaya",
+          "context": "Moral and legal fairness"
+        },
+        {
+          "kannada": "ಅಪರಾಧ",
+          "english": "Crime",
+          "romanization": "aparaadha",
+          "context": "Illegal act"
+        },
+        {
+          "kannada": "ದಂಡನೆ",
+          "english": "Punishment",
+          "romanization": "dandane",
+          "context": "Penalty for wrongdoing"
+        },
+        {
+          "kannada": "ಅಪೀಲ",
+          "english": "Appeal",
+          "romanization": "apeela",
+          "context": "Application for reconsideration in court"
+        },
+        {
+          "kannada": "ಸಾಕ್ಷಿ",
+          "english": "Witness",
+          "romanization": "saakshi",
+          "context": "Person who testifies in court"
+        },
+        {
+          "kannada": "ಒಪ್ಪಂದ",
+          "english": "Agreement / Contract",
+          "romanization": "oppanda",
+          "context": "Legally binding promise"
+        },
+        {
+          "kannada": "ನ್ಯಾಯಾಧೀಶ",
+          "english": "Judge",
+          "romanization": "nyaayaadheesha",
+          "context": "Official presiding over a court"
+        },
+        {
+          "kannada": "ವಕೀಲ",
+          "english": "Lawyer",
+          "romanization": "vakeela",
+          "context": "Legal representative"
+        },
+        {
+          "kannada": "ಕಾನೂನು",
+          "english": "Law",
+          "romanization": "kaanoonu",
+          "context": "System of rules in society"
+        },
+        {
+          "kannada": "ತೀರ್ಪು",
+          "english": "Verdict",
+          "romanization": "teerpu",
+          "context": "Final decision of a court"
+        }
+      ]
+    },
+    {
+      "id": "society",
+      "title": "Society & Community",
+      "subtitle": "Words describing social structures",
+      "items": [
+        {
+          "kannada": "ಸಮಾಜ",
+          "english": "Society",
+          "romanization": "samaaja",
+          "context": "Organized group of people"
+        },
+        {
+          "kannada": "ಜನಾಂಗ",
+          "english": "Community / Ethnicity",
+          "romanization": "janaanga",
+          "context": "Group with shared identity"
+        },
+        {
+          "kannada": "ವರ್ಗ",
+          "english": "Class / Category",
+          "romanization": "varga",
+          "context": "Group based on status or type"
+        },
+        {
+          "kannada": "ಜಾತಿ",
+          "english": "Caste",
+          "romanization": "jaati",
+          "context": "Traditional social grouping"
+        },
+        {
+          "kannada": "ಸಮತೆ",
+          "english": "Equality",
+          "romanization": "samate",
+          "context": "Fairness and absence of discrimination"
+        },
+        {
+          "kannada": "ಅಸಮಾನತೆ",
+          "english": "Inequality",
+          "romanization": "asamaanate",
+          "context": "Unequal treatment"
+        },
+        {
+          "kannada": "ಸಂಸ್ಕೃತಿ",
+          "english": "Culture",
+          "romanization": "samskruti",
+          "context": "Customs, beliefs, and traditions"
+        },
+        {
+          "kannada": "ಆಚಾರ",
+          "english": "Custom",
+          "romanization": "aachaara",
+          "context": "Traditional practice"
+        },
+        {
+          "kannada": "ಹಬ್ಬ",
+          "english": "Festival",
+          "romanization": "habba",
+          "context": "Cultural or religious celebration"
+        },
+        {
+          "kannada": "ಸೇವಾ",
+          "english": "Service (to society)",
+          "romanization": "sevaa",
+          "context": "Voluntary help or contribution"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "title": "Science & Nature",
+      "subtitle": "Scientific and natural world terms",
+      "items": [
+        {
+          "kannada": "ಅಣು",
+          "english": "Atom",
+          "romanization": "aṇu",
+          "context": "Smallest unit of matter"
+        },
+        {
+          "kannada": "ಅಣುಗುಚ್ಛ",
+          "english": "Molecule",
+          "romanization": "aṇuguccha",
+          "context": "Combination of atoms"
+        },
+        {
+          "kannada": "ಕಣ",
+          "english": "Particle",
+          "romanization": "kaṇa",
+          "context": "Tiny unit of matter/energy"
+        },
+        {
+          "kannada": "ಗುರುತ್ವಾಕರ್ಷಣ",
+          "english": "Gravity",
+          "romanization": "gurutvaakarṣaṇa",
+          "context": "Force pulling objects toward each other"
+        },
+        {
+          "kannada": "ವಿಕಿರಣ",
+          "english": "Radiation",
+          "romanization": "vikiraṇa",
+          "context": "Emission of energy"
+        },
+        {
+          "kannada": "ವಿಕಸನ",
+          "english": "Evolution",
+          "romanization": "vikasana",
+          "context": "Gradual development of species"
+        },
+        {
+          "kannada": "ಸಜೀವಿ",
+          "english": "Organism",
+          "romanization": "sajeevi",
+          "context": "Living being"
+        },
+        {
+          "kannada": "ಕೋಶ",
+          "english": "Cell",
+          "romanization": "kosha",
+          "context": "Basic unit of life"
+        },
+        {
+          "kannada": "ಜೀನ್ಸ್",
+          "english": "Genes",
+          "romanization": "jeens",
+          "context": "Units of heredity"
+        },
+        {
+          "kannada": "ರಸಾಯನ",
+          "english": "Chemical",
+          "romanization": "rasaayana",
+          "context": "Substance with specific properties"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Technology & Innovation",
+      "subtitle": "Words related to modern inventions and tools",
+      "items": [
+        {
+          "kannada": "ಕಂಪ್ಯೂಟರ್",
+          "english": "Computer",
+          "romanization": "kampyooṭar",
+          "context": "Electronic device for processing data"
+        },
+        {
+          "kannada": "ಜಾಲ",
+          "english": "Network",
+          "romanization": "jaala",
+          "context": "Connected system of communication"
+        },
+        {
+          "kannada": "ಮಾಹಿತಿ ತಂತ್ರಜ್ಞಾನ",
+          "english": "Information Technology",
+          "romanization": "maahiti tantrajnaana",
+          "context": "Field of computing and data"
+        },
+        {
+          "kannada": "ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ",
+          "english": "Artificial Intelligence",
+          "romanization": "krutaka buddhimatte",
+          "context": "Machine-based intelligence"
+        },
+        {
+          "kannada": "ರೋಬೋಟ್",
+          "english": "Robot",
+          "romanization": "roboṭ",
+          "context": "Automated machine"
+        },
+        {
+          "kannada": "ಉಪಗ್ರಹ",
+          "english": "Satellite",
+          "romanization": "upagraha",
+          "context": "Artificial body orbiting Earth"
+        },
+        {
+          "kannada": "ಅಂತರಿಕ್ಷ",
+          "english": "Outer Space",
+          "romanization": "antariḳṣa",
+          "context": "Region beyond Earth"
+        },
+        {
+          "kannada": "ಸಂವಹನ",
+          "english": "Communication",
+          "romanization": "samvahana",
+          "context": "Exchange of information"
+        },
+        {
+          "kannada": "ಜೈವ ತಂತ್ರಜ್ಞಾನ",
+          "english": "Biotechnology",
+          "romanization": "jaiva tantrajnaana",
+          "context": "Use of biology for technology"
+        },
+        {
+          "kannada": "ಇಂಟರ್ನೆಟ್",
+          "english": "Internet",
+          "romanization": "internet",
+          "context": "Global digital network"
+        }
+      ]
+    },
+    {
+      "id": "specialized",
+      "title": "Specialized Vocabulary",
+      "subtitle": "Higher-level abstract and technical terms",
+      "items": [
+        {
+          "kannada": "ಸಂಶೋಧನೆ",
+          "english": "Research",
+          "romanization": "samshodane",
+          "context": "Systematic investigation"
+        },
+        {
+          "kannada": "ಸಿದ್ಧಾಂತ",
+          "english": "Theory",
+          "romanization": "siddhaanta",
+          "context": "Framework of ideas"
+        },
+        {
+          "kannada": "ಪ್ರಯೋಗ",
+          "english": "Experiment",
+          "romanization": "prayoga",
+          "context": "Practical test of an idea"
+        },
+        {
+          "kannada": "ದತ್ತಾಂಶ",
+          "english": "Data",
+          "romanization": "dattaansha",
+          "context": "Facts and statistics"
+        },
+        {
+          "kannada": "ವಿಶ್ಲೇಷಣೆ",
+          "english": "Analysis",
+          "romanization": "vishleshane",
+          "context": "Detailed examination"
+        },
+        {
+          "kannada": "ಪರಿಮಾಣ",
+          "english": "Quantity",
+          "romanization": "parimaana",
+          "context": "Amount or measure"
+        },
+        {
+          "kannada": "ಗುಣಮಟ್ಟ",
+          "english": "Quality",
+          "romanization": "guṇamaṭṭa",
+          "context": "Standard of something"
+        },
+        {
+          "kannada": "ಮಾದರಿ",
+          "english": "Model",
+          "romanization": "maadari",
+          "context": "Representation of a system"
+        },
+        {
+          "kannada": "ಅಲ್ಗಾರಿದಮ್",
+          "english": "Algorithm",
+          "romanization": "algaaridam",
+          "context": "Step-by-step procedure"
+        },
+        {
+          "kannada": "ಆವಿಷ್ಕಾರ",
+          "english": "Innovation",
+          "romanization": "aavishkaara",
+          "context": "New idea or invention"
+        }
+      ]
+    }
+  ]
+}

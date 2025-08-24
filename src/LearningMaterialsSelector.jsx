@@ -46,12 +46,16 @@ const LearningMaterialsSelector = ({ onMaterialSelect }) => {
       color: '#f59e0b'
     },
     {
-      id: 'flashcard-test',
-      file: '/learning/flashcard-test.json',
-      category: 'test',
-      icon: Target,
-      color: '#dc2626'
-    }
+  id: 'vocabulary-tests',
+  title: 'Vocabulary Tests',
+  description: 'Interactive flashcard tests for all levels',
+  level: 'test',
+  type: 'test',
+  category: 'test',
+  icon: Target,
+  color: '#dc2626',
+  isSpecialTest: true // Flag to identify this as the new test
+}
   ];
 
   const categories = [
@@ -68,40 +72,54 @@ const LearningMaterialsSelector = ({ onMaterialSelect }) => {
   }, []);
 
   const loadMaterials = async () => {
-    setLoading(true);
-    setError(null);
+  setLoading(true);
+  setError(null);
+  
+  try {
+    const loadedMaterials = [];
     
-    try {
-      const loadedMaterials = [];
+    for (const materialConfig of availableMaterials) {
+      // Skip special test entries that don't have actual JSON files
+      if (materialConfig.isSpecialTest) {
+        // Add the test entry directly without trying to fetch a file
+        loadedMaterials.push({
+          id: materialConfig.id,
+          title: materialConfig.title,
+          description: materialConfig.description,
+          level: materialConfig.level,
+          type: materialConfig.type,
+          config: materialConfig
+        });
+        continue;
+      }
       
-      for (const materialConfig of availableMaterials) {
-        try {
-          const response = await fetch(materialConfig.file);
-          if (response.ok) {
-            const data = await response.json();
-            loadedMaterials.push({
-              ...data,
-              config: materialConfig
-            });
-          } else {
-            console.warn(`Failed to load ${materialConfig.id}:`, response.status);
-          }
-        } catch (err) {
-          console.warn(`Error loading ${materialConfig.id}:`, err);
+      try {
+        const response = await fetch(materialConfig.file);
+        if (response.ok) {
+          const data = await response.json();
+          loadedMaterials.push({
+            ...data,
+            config: materialConfig
+          });
+        } else {
+          console.warn(`Failed to load ${materialConfig.id}:`, response.status);
         }
+      } catch (err) {
+        console.warn(`Error loading ${materialConfig.id}:`, err);
       }
-      
-      if (loadedMaterials.length === 0) {
-        throw new Error('No learning materials could be loaded');
-      }
-      
-      setMaterials(loadedMaterials);
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
     }
-  };
+    
+    if (loadedMaterials.length === 0) {
+      throw new Error('No learning materials could be loaded');
+    }
+    
+    setMaterials(loadedMaterials);
+  } catch (err) {
+    setError(err.message);
+  } finally {
+    setLoading(false);
+  }
+};
 
   const filteredMaterials = selectedCategory === 'all' 
     ? materials 

@@ -614,6 +614,7 @@ function App() {
   const [showReader, setShowReader] = useState(false);
   const [showTextInput, setShowTextInput] = useState(false);
   const [selectedMaterial, setSelectedMaterial] = useState(null);
+  const [allMaterials, setAllMaterials] = useState([]); // Store all loaded materials
   
   // Initialize enhanced dictionary hook
   const { isLoading, isReady, error, lookupWord, speakWord, getStats, retry } = useDictionary();
@@ -640,6 +641,7 @@ function App() {
     setCurrentText('');
     setSelectedWord('');
     setSelectedMaterial(null);
+    setAllMaterials([]); // Clear loaded materials when going back
   };
 
   const handleTextSubmit = (text) => {
@@ -663,9 +665,57 @@ function App() {
     setSelectedWord('');
   };
 
-  const handleMaterialSelect = (material) => {
-    setSelectedMaterial(material);
-  };
+  const handleMaterialSelect = async (material) => {
+  setSelectedMaterial(material);
+  
+  // If it's a vocabulary test, auto-load required materials
+  if (material.type === 'test' || material.isSpecialTest) {
+    const requiredMaterialIds = ['alphabets', 'beginner-vocabulary', 'intermediate-vocabulary', 'advanced-vocabulary', 'common-phrases'];
+    
+    const materialsToLoad = requiredMaterialIds.filter(id => 
+      !allMaterials.some(m => m.id === id)
+    );
+    
+    if (materialsToLoad.length > 0) {
+      const availableMaterialConfigs = [
+        { id: 'alphabets', file: '/learning/alphabets.json' },
+        { id: 'beginner-vocabulary', file: '/learning/beginner-vocabulary.json' },
+        { id: 'intermediate-vocabulary', file: '/learning/intermediate-vocabulary.json' },
+        { id: 'advanced-vocabulary', file: '/learning/advanced-vocabulary.json' },
+        { id: 'common-phrases', file: '/learning/common-phrases.json' }
+      ];
+      
+      const loadPromises = materialsToLoad.map(async (materialId) => {
+        const config = availableMaterialConfigs.find(c => c.id === materialId);
+        if (config) {
+          try {
+            const response = await fetch(config.file);
+            if (response.ok) {
+              const data = await response.json();
+              return { ...data, config };
+            }
+          } catch (err) {
+            console.warn(`Failed to auto-load ${materialId}:`, err);
+          }
+        }
+        return null;
+      });
+      
+      const loadedMaterials = (await Promise.all(loadPromises)).filter(Boolean);
+      
+      setAllMaterials(prev => [...prev, ...loadedMaterials]);
+    }
+  }
+  
+  // Add material to allMaterials if not already present
+  setAllMaterials(prevMaterials => {
+    const exists = prevMaterials.some(m => m.id === material.id);
+    if (!exists) {
+      return [...prevMaterials, material];
+    }
+    return prevMaterials;
+  });
+};
 
   const handleBackToMaterials = () => {
     setSelectedMaterial(null);
@@ -756,7 +806,7 @@ function App() {
                     <li>📖 Dictionary meanings</li>
                     <li>🔍 Root word analysis</li>
                     <li>📚 Grammar explanations</li>
-                    <li>📊 Pronunciation help</li>
+                    <li>🔊 Pronunciation help</li>
                     <li>💡 Word suggestions</li>
                   </ul>
                   {isReady && (
@@ -788,6 +838,7 @@ function App() {
             <div>
               <LearningMaterialsViewer
                 material={selectedMaterial}
+                allMaterials={allMaterials}
                 onBack={handleBackToMaterials}
                 onWordClick={handleWordClick}
                 speakWord={speakWord}

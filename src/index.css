@@ -1718,7 +1718,8 @@ header {
 @media (min-width: 1025px) {
   .section-navigation.many-tabs {
     flex-direction: column;
-    max-width: 250px;
+    width: max-content;     /* adjusts to content width */
+    max-width: 100%;        /* ensures it doesn't exceed parent */
     border-right: 2px solid #e5e7eb;
     border-bottom: none;
   }

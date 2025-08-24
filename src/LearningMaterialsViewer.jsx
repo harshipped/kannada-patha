@@ -3,17 +3,17 @@ import { BookOpen, Volume2, ArrowLeft, ChevronRight, Lightbulb, User, MessageCir
 import FlashcardTest from './FlashcardTest.jsx';
 
 // Main Learning Materials Viewer Component
-const LearningMaterialsViewer = ({ material, onBack, onWordClick, speakWord }) => {
+const LearningMaterialsViewer = ({ material, allMaterials, onBack, onWordClick, speakWord }) => {
   const [selectedSection, setSelectedSection] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
 
   if (!material) return null;
 
-  // Handle flashcard tests
-  if (material.type === 'test') {
+  // Handle flashcard tests - pass all loaded materials
+  if (material.type === 'test' || material.isSpecialTest) {
     return (
       <FlashcardTest 
-        material={material}
+        allMaterials={allMaterials}
         onBack={onBack}
         speakWord={speakWord}
       />

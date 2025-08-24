@@ -1,90 +1,1343 @@
 {
-  "id": "common-phrases",
-  "title": "Common Kannada Phrases",
-  "description": "Useful phrases for everyday conversations",
+  "id": "beginner-kannada-essentials",
+  "title": "Beginner Kannada Essentials",
+  "description": "A comprehensive set of phrases and vocabulary for beginners.",
   "level": "beginner",
   "type": "phrases",
   "sections": [
     {
-      "id": "basic-conversation",
-      "title": "Basic Conversation",
-      "subtitle": "Essential phrases for daily interaction",
-      "items": [
-        {
-          "kannada": "ನನ್ನ ಹೆಸರು ರಾಮ್",
-          "english": "My name is Ram",
-          "romanization": "nanna hesaru Ram",
-          "context": "Introducing yourself",
-          "breakdown": [
-            { "word": "ನನ್ನ", "meaning": "my" },
-            { "word": "ಹೆಸರು", "meaning": "name" },
-            { "word": "ರಾಮ್", "meaning": "Ram" }
-          ]
-        },
-        {
-          "kannada": "ನೀವು ಎಲ್ಲಿಂದ ಬಂದಿದ್ದೀರಿ?",
-          "english": "Where are you from?",
-          "romanization": "niivu ellinda bandiddiri?",
-          "context": "Asking about someone's origin",
-          "breakdown": [
-            { "word": "ನೀವು", "meaning": "you (respectful)" },
-            { "word": "ಎಲ್ಲಿಂದ", "meaning": "from where" },
-            { "word": "ಬಂದಿದ್ದೀರಿ", "meaning": "have you come" }
-          ]
-        },
-        {
-          "kannada": "ನಾನು ಬೆಂಗಳೂರಿನಿಂದ ಬಂದಿದ್ದೇನೆ",
-          "english": "I am from Bangalore",
-          "romanization": "naanu Bengalurininda bandiddene",
-          "context": "Telling about your origin",
-          "breakdown": [
-            { "word": "ನಾನು", "meaning": "I" },
-            { "word": "ಬೆಂಗಳೂರಿನಿಂದ", "meaning": "from Bangalore" },
-            { "word": "ಬಂದಿದ್ದೇನೆ", "meaning": "have come" }
-          ]
-        }
+  "id": "greetings",
+  "title": "Greetings",
+  "subtitle": "How to greet people",
+  "items": [
+    {
+      "kannada": "ನಮಸ್ಕಾರ",
+      "english": "Hello",
+      "romanization": "namaskaara",
+      "context": "A formal and common way to greet anyone.",
+      "breakdown": [
+        { "word": "ನಮಸ್ಕಾರ", "meaning": "hello/greetings" }
       ]
     },
     {
-      "id": "asking-help",
-      "title": "Asking for Help",
-      "subtitle": "Phrases when you need assistance",
-      "items": [
-        {
-          "kannada": "ನನಗೆ ಸಹಾಯ ಬೇಕು",
-          "english": "I need help",
-          "romanization": "nanage sahaaya beku",
-          "context": "When you need assistance",
-          "breakdown": [
-            { "word": "ನನಗೆ", "meaning": "to me/for me" },
-            { "word": "ಸಹಾಯ", "meaning": "help" },
-            { "word": "ಬೇಕು", "meaning": "need/want" }
-          ]
-        },
-        {
-          "kannada": "ಇದು ಎಷ್ಟು ಬೆಲೆ?",
-          "english": "How much does this cost?",
-          "romanization": "idu eshTu bele?",
-          "context": "Asking about price while shopping",
-          "breakdown": [
-            { "word": "ಇದು", "meaning": "this" },
-            { "word": "ಎಷ್ಟು", "meaning": "how much" },
-            { "word": "ಬೆಲೆ", "meaning": "price/cost" }
-          ]
-        },
-        {
-          "kannada": "ಕ್ಷಮಿಸಿ, ನನಗೆ ಕನ್ನಡ ಬರುವುದಿಲ್ಲ",
-          "english": "Sorry, I don't know Kannada",
-          "romanization": "kshamisi, nanage kannaDa baruvudilla",
-          "context": "When you can't speak Kannada well",
-          "breakdown": [
-            { "word": "ಕ್ಷಮಿಸಿ", "meaning": "sorry/excuse me" },
-            { "word": "ನನಗೆ", "meaning": "to me" },
-            { "word": "ಕನ್ನಡ", "meaning": "Kannada" },
-            { "word": "ಬರುವುದಿಲ್ಲ", "meaning": "doesn't come/don't know" }
-          ]
-        }
+      "kannada": "ಹೇಗಿದ್ದೀರಾ?",
+      "english": "How are you?",
+      "romanization": "hegiddiiraa?",
+      "context": "Used to ask someone about their well-being (formal/plural).",
+      "breakdown": [
+        { "word": "ಹೇಗೆ", "meaning": "how" },
+        { "word": "ಇದ್ದೀರಾ", "meaning": "are you" }
+      ]
+    },
+    {
+      "kannada": "ಚೆನ್ನಾಗಿದ್ದೀನಿ, ಧನ್ಯವಾದಗಳು",
+      "english": "I am fine, thank you",
+      "romanization": "chennagiddiini, dhanyavaadagalu",
+      "context": "A polite response to 'How are you?'.",
+      "breakdown": [
+        { "word": "ಚೆನ್ನಾಗಿ", "meaning": "well/fine" },
+        { "word": "ಇದ್ದೀನಿ", "meaning": "I am" },
+        { "word": "ಧನ್ಯವಾದಗಳು", "meaning": "thank you" }
+      ]
+    },
+    {
+      "kannada": "ನೀವೇನು ಸುದ್ದಿಗಳು?",
+      "english": "How about you?",
+      "romanization": "niiveenu suddigalu?",
+      "context": "Used to ask about the other person’s well-being in return.",
+      "breakdown": [
+        { "word": "ನೀವು", "meaning": "you" },
+        { "word": "ಏನು", "meaning": "what" },
+        { "word": "ಸುದ್ದಿಗಳು", "meaning": "news/updates" }
+      ]
+    },
+    {
+      "kannada": "ನಾನೂ ಚೆನ್ನಾಗಿದ್ದೇನೆ",
+      "english": "I am also fine",
+      "romanization": "naanu chennagiddēne",
+      "context": "A polite way to say you are doing well.",
+      "breakdown": [
+        { "word": "ನಾನು", "meaning": "I" },
+        { "word": "ಚೆನ್ನಾಗಿ", "meaning": "well/fine" },
+        { "word": "ಇದ್ದೇನೆ", "meaning": "am (present tense)" }
+      ]
+    },
+    {
+      "kannada": "ಎಲ್ಲಿ ಹೋಗುತ್ತಿದ್ದೀರಾ?",
+      "english": "Where are you going?",
+      "romanization": "elli hoguttiddiiraa?",
+      "context": "Common casual question when meeting someone on the way.",
+      "breakdown": [
+        { "word": "ಎಲ್ಲಿ", "meaning": "where" },
+        { "word": "ಹೋಗುತ್ತಿದ್ದೀರಾ", "meaning": "are you going" }
+      ]
+    },
+    {
+      "kannada": "ನಾನು ಕೆಲಸಕ್ಕೆ ಹೋಗುತ್ತಿದ್ದೇನೆ",
+      "english": "I am going to work",
+      "romanization": "naanu kelasakke hoguttiddēne",
+      "context": "A simple reply when asked where you are going.",
+      "breakdown": [
+        { "word": "ನಾನು", "meaning": "I" },
+        { "word": "ಕೆಲಸಕ್ಕೆ", "meaning": "to work/job" },
+        { "word": "ಹೋಗುತ್ತಿದ್ದೇನೆ", "meaning": "am going" }
+      ]
+    },
+    {
+      "kannada": "ಸರಿ, ಮತ್ತೆ ಭೇಟಿ ಆಗೋಣ",
+      "english": "Okay, let’s meet again",
+      "romanization": "sari, matte bēṭi āgōṇa",
+      "context": "A friendly way to say goodbye.",
+      "breakdown": [
+        { "word": "ಸರಿ", "meaning": "okay" },
+        { "word": "ಮತ್ತೆ", "meaning": "again" },
+        { "word": "ಭೇಟಿ ಆಗೋಣ", "meaning": "let’s meet" }
+      ]
+    },
+    {
+      "kannada": "ವಿದಾಯ",
+      "english": "Goodbye",
+      "romanization": "vidaaya",
+      "context": "A formal farewell.",
+      "breakdown": [
+        { "word": "ವಿದಾಯ", "meaning": "farewell/goodbye" }
       ]
     }
+  ]
+},
+    {
+  "id": "introductions",
+  "title": "Introductions",
+  "subtitle": "Introducing yourself and others",
+  "items": [
+    {
+      "kannada": "ನನ್ನ ಹೆಸರು ಸೀತಾ",
+      "english": "My name is Seetha",
+      "romanization": "nanna hesaru Seetha",
+      "context": "Introducing yourself.",
+      "breakdown": [
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಹೆಸರು", "meaning": "name" },
+        { "word": "ಸೀತಾ", "meaning": "Seetha (example name)" }
+      ]
+    },
+    {
+      "kannada": "ನಿಮ್ಮ ಹೆಸರು ಏನು?",
+      "english": "What is your name?",
+      "romanization": "nimma hesaru enu?",
+      "context": "Asking someone for their name (formal).",
+      "breakdown": [
+        { "word": "ನಿಮ್ಮ", "meaning": "your" },
+        { "word": "ಹೆಸರು", "meaning": "name" },
+        { "word": "ಏನು", "meaning": "what" }
+      ]
+    },
+    {
+      "kannada": "ನನ್ನ ಹೆಸರು ರಾಮ್",
+      "english": "My name is Ram",
+      "romanization": "nanna hesaru Ram",
+      "context": "Replying with your own name.",
+      "breakdown": [
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಹೆಸರು", "meaning": "name" },
+        { "word": "ರಾಮ್", "meaning": "Ram (example name)" }
+      ]
+    },
+    {
+      "kannada": "ನಿಮ್ಮನ್ನು ಭೇಟಿ ಮಾಡಿ ಸಂತೋಷವಾಯಿತು",
+      "english": "Nice to meet you",
+      "romanization": "nimmannu bheti maadi santoshavayitu",
+      "context": "A polite phrase after being introduced to someone.",
+      "breakdown": [
+        { "word": "ನಿಮ್ಮನ್ನು", "meaning": "you" },
+        { "word": "ಭೇಟಿ ಮಾಡಿ", "meaning": "having met" },
+        { "word": "ಸಂತೋಷವಾಯಿತು", "meaning": "it became happy" }
+      ]
+    },
+    {
+      "kannada": "ನಿಮ್ಮುನ್ನು ಎಲ್ಲಿ ಇರುತ್ತೀರಿ?",
+      "english": "Where are you from?",
+      "romanization": "nimmannu elli iruttīri?",
+      "context": "Asking someone about their place of origin/residence.",
+      "breakdown": [
+        { "word": "ನೀವು", "meaning": "you" },
+        { "word": "ಎಲ್ಲಿ", "meaning": "where" },
+        { "word": "ಇರುತ್ತೀರಿ", "meaning": "do you live/are you from" }
+      ]
+    },
+    {
+      "kannada": "ನಾನು ಬೆಂಗಳೂರಿನಲ್ಲಿ ಇರುತ್ತೇನೆ",
+      "english": "I am from Bengaluru",
+      "romanization": "naanu Bengaloorinalli iruttēne",
+      "context": "Replying about your place of residence.",
+      "breakdown": [
+        { "word": "ನಾನು", "meaning": "I" },
+        { "word": "ಬೆಂಗಳೂರು", "meaning": "Bengaluru" },
+        { "word": "ಇರುತ್ತೇನೆ", "meaning": "am from/live" }
+      ]
+    },
+    {
+      "kannada": "ಇವರು ನನ್ನ ಸ್ನೇಹಿತ ಅಜಯ್",
+      "english": "This is my friend Ajay",
+      "romanization": "ivaru nanna sneehita Ajay",
+      "context": "Introducing another person to someone.",
+      "breakdown": [
+        { "word": "ಇವರು", "meaning": "this person (respectful)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಸ್ನೇಹಿತ", "meaning": "friend" },
+        { "word": "ಅಜಯ್", "meaning": "Ajay (example name)" }
+      ]
+    },
+    {
+      "kannada": "ಅವರು ನನ್ನ ಸಹೋದ್ಯೋಗಿ",
+      "english": "He is my colleague",
+      "romanization": "avaru nanna sahodyōgi",
+      "context": "Introducing a colleague formally.",
+      "breakdown": [
+        { "word": "ಅವರು", "meaning": "he (respectful)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಸಹೋದ್ಯೋಗಿ", "meaning": "colleague" }
+      ]
+    },
+    {
+      "kannada": "ತುಂಬ ಸಂತೋಷ ಆಯಿತು",
+      "english": "Very pleased",
+      "romanization": "tumba santōsha aayitu",
+      "context": "Polite response when meeting someone new.",
+      "breakdown": [
+        { "word": "ತುಂಬ", "meaning": "very" },
+        { "word": "ಸಂತೋಷ", "meaning": "happiness/pleasure" },
+        { "word": "ಆಯಿತು", "meaning": "happened/it became" }
+      ]
+    }
+  ]
+},
+    {
+  "id": "asking-directions",
+  "title": "Asking for Directions",
+  "subtitle": "How to find your way around",
+  "items": [
+    {
+      "kannada": "ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?",
+      "english": "Where is the bus stand?",
+      "romanization": "bus nildana ellide?",
+      "context": "Asking for the location of a place.",
+      "breakdown": [
+        { "word": "ಬಸ್ ನಿಲ್ದಾಣ", "meaning": "bus stand" },
+        { "word": "ಎಲ್ಲಿದೆ", "meaning": "where is it" }
+      ]
+    },
+    {
+      "kannada": "ನೇರವಾಗಿ ಹೋಗಿ",
+      "english": "Go straight",
+      "romanization": "neravaagi hogi",
+      "context": "Giving a simple direction.",
+      "breakdown": [
+        { "word": "ನೇರವಾಗಿ", "meaning": "straight" },
+        { "word": "ಹೋಗಿ", "meaning": "go (formal)" }
+      ]
+    },
+    {
+      "kannada": "ಬಲಕ್ಕೆ ತಿರುಗಿ",
+      "english": "Turn right",
+      "romanization": "balakke tirugi",
+      "context": "Instructing someone to turn right.",
+      "breakdown": [
+        { "word": "ಬಲಕ್ಕೆ", "meaning": "to the right" },
+        { "word": "ತಿರುಗಿ", "meaning": "turn (formal)" }
+      ]
+    },
+    {
+      "kannada": "ಅದಾದಮೇಲೆ ಎಡಕ್ಕೆ ತಿರುಗಿ",
+      "english": "Then turn left",
+      "romanization": "adaadamele edakke tirugi",
+      "context": "Giving the next step in the directions.",
+      "breakdown": [
+        { "word": "ಅದಾದಮೇಲೆ", "meaning": "after that/then" },
+        { "word": "ಎಡಕ್ಕೆ", "meaning": "to the left" },
+        { "word": "ತಿರುಗಿ", "meaning": "turn (formal)" }
+      ]
+    },
+    {
+      "kannada": "ಅದು ಪೋಸ್ಟ್ ಆಫೀಸ್ ಹತ್ತಿರ ಇದೆ",
+      "english": "It is near the post office",
+      "romanization": "adu post office hattira ide",
+      "context": "Describing the location with a landmark.",
+      "breakdown": [
+        { "word": "ಅದು", "meaning": "it" },
+        { "word": "ಪೋಸ್ಟ್ ಆಫೀಸ್", "meaning": "post office" },
+        { "word": "ಹತ್ತಿರ", "meaning": "near" },
+        { "word": "ಇದೆ", "meaning": "is there" }
+      ]
+    },
+    {
+      "kannada": "ಎಷ್ಟು ದೂರ ಇದೆ?",
+      "english": "How far is it?",
+      "romanization": "eshtu doora ide?",
+      "context": "Asking for the distance.",
+      "breakdown": [
+        { "word": "ಎಷ್ಟು", "meaning": "how much" },
+        { "word": "ದೂರ", "meaning": "distance" },
+        { "word": "ಇದೆ", "meaning": "is there" }
+      ]
+    },
+    {
+      "kannada": "ಕೇವಲ ಐದು ನಿಮಿಷ ನಡೆಯಬೇಕು",
+      "english": "Just a five-minute walk",
+      "romanization": "kevala aidu nimisha nadeyabeku",
+      "context": "Giving an idea of the distance.",
+      "breakdown": [
+        { "word": "ಕೇವಲ", "meaning": "just/only" },
+        { "word": "ಐದು", "meaning": "five" },
+        { "word": "ನಿಮಿಷ", "meaning": "minutes" },
+        { "word": "ನಡೆಯಬೇಕು", "meaning": "should walk" }
+      ]
+    },
+    {
+      "kannada": "ಧನ್ಯವಾದಗಳು",
+      "english": "Thank you",
+      "romanization": "dhanyavaadagalu",
+      "context": "Polite way to express gratitude.",
+      "breakdown": [
+        { "word": "ಧನ್ಯವಾದಗಳು", "meaning": "thank you" }
+      ]
+    },
+    {
+      "kannada": "ಸವಾಲೇ ಇಲ್ಲ",
+      "english": "You're welcome",
+      "romanization": "savaale illa",
+      "context": "Polite response to thanks.",
+      "breakdown": [
+        { "word": "ಸವಾಲೇ", "meaning": "problem/trouble" },
+        { "word": "ಇಲ್ಲ", "meaning": "not/there isn’t" }
+      ]
+    }
+  ]
+},
+    {
+  "id": "ordering-food",
+  "title": "Ordering Food",
+  "subtitle": "Phrases for a restaurant",
+  "items": [
+    {
+      "kannada": "ಒಂದು ಕಾಫಿ ಕೊಡಿ",
+      "english": "Give one coffee",
+      "romanization": "ondu coffee kodi",
+      "context": "A simple way to order an item.",
+      "breakdown": [
+        { "word": "ಒಂದು", "meaning": "one" },
+        { "word": "ಕಾಫಿ", "meaning": "coffee" },
+        { "word": "ಕೊಡಿ", "meaning": "give (formal)" }
+      ]
+    },
+    {
+      "kannada": "ಊಟಕ್ಕೆ ಏನು ಇದೆ?",
+      "english": "What is there for the meal?",
+      "romanization": "ootakke enu ide?",
+      "context": "Asking about the menu or available food.",
+      "breakdown": [
+        { "word": "ಊಟಕ್ಕೆ", "meaning": "for the meal" },
+        { "word": "ಏನು", "meaning": "what" },
+        { "word": "ಇದೆ", "meaning": "is there" }
+      ]
+    },
+    {
+      "kannada": "ಇಂದು ಊಟದಲ್ಲಿ ಅನ್ನ, ಸಾರು, ಪಲ್ಯ ಇದೆ",
+      "english": "Today’s meal has rice, sambar, and curry",
+      "romanization": "indu ootadalli anna, saaru, palya ide",
+      "context": "Waiter describing the menu of the day.",
+      "breakdown": [
+        { "word": "ಇಂದು", "meaning": "today" },
+        { "word": "ಊಟದಲ್ಲಿ", "meaning": "in the meal" },
+        { "word": "ಅನ್ನ", "meaning": "rice" },
+        { "word": "ಸಾರು", "meaning": "sambar/lentil soup" },
+        { "word": "ಪಲ್ಯ", "meaning": "vegetable curry" },
+        { "word": "ಇದೆ", "meaning": "is there" }
+      ]
+    },
+    {
+      "kannada": "ಒಂದು ತಟ್ಟೆ ಊಟ ಕೊಡಿ",
+      "english": "Give one meal plate",
+      "romanization": "ondu tatte oota kodi",
+      "context": "Placing an order for a meal plate.",
+      "breakdown": [
+        { "word": "ಒಂದು", "meaning": "one" },
+        { "word": "ತಟ್ಟೆ", "meaning": "plate" },
+        { "word": "ಊಟ", "meaning": "meal/food" },
+        { "word": "ಕೊಡಿ", "meaning": "give (formal)" }
+      ]
+    },
+    {
+      "kannada": "ಸ್ವಲ್ಪ ನೀರು ಕೊಡಿ",
+      "english": "Give some water",
+      "romanization": "swalpa neeru kodi",
+      "context": "Requesting drinking water at a restaurant.",
+      "breakdown": [
+        { "word": "ಸ್ವಲ್ಪ", "meaning": "some/little" },
+        { "word": "ನೀರು", "meaning": "water" },
+        { "word": "ಕೊಡಿ", "meaning": "give (formal)" }
+      ]
+    },
+    {
+      "kannada": "ಊಟ ತುಂಬ ಚೆನ್ನಾಗಿದೆ",
+      "english": "The food is very good",
+      "romanization": "oota tumba chennagide",
+      "context": "Complimenting the taste of the food.",
+      "breakdown": [
+        { "word": "ಊಟ", "meaning": "food/meal" },
+        { "word": "ತುಂಬ", "meaning": "very" },
+        { "word": "ಚೆನ್ನಾಗಿದೆ", "meaning": "is good" }
+      ]
+    },
+    {
+      "kannada": "ಬಿಲ್ ಕೊಡಿ",
+      "english": "Give the bill",
+      "romanization": "bill kodi",
+      "context": "Asking for the check at the end of a meal.",
+      "breakdown": [
+        { "word": "ಬಿಲ್", "meaning": "bill" },
+        { "word": "ಕೊಡಿ", "meaning": "give (formal)" }
+      ]
+    },
+    {
+      "kannada": "ಧನ್ಯವಾದಗಳು, ಮತ್ತೆ ಬನ್ನಿ",
+      "english": "Thank you, please come again",
+      "romanization": "dhanyavaadagalu, matte banni",
+      "context": "What a waiter/owner says to customers after payment.",
+      "breakdown": [
+        { "word": "ಧನ್ಯವಾದಗಳು", "meaning": "thank you" },
+        { "word": "ಮತ್ತೆ", "meaning": "again" },
+        { "word": "ಬನ್ನಿ", "meaning": "please come (formal)" }
+      ]
+    }
+  ]
+},
+    {
+  "id": "shopping",
+  "title": "Shopping",
+  "subtitle": "Essential phrases for shopping",
+  "items": [
+    {
+      "kannada": "ಇದರ ಬೆಲೆ ಎಷ್ಟು?",
+      "english": "How much is this?",
+      "romanization": "idara bele eshtu?",
+      "context": "A common way to ask the price of an item while shopping.",
+      "breakdown": [
+        { "word": "ಇದರ", "meaning": "its/this one's" },
+        { "word": "ಬೆಲೆ", "meaning": "price" },
+        { "word": "ಎಷ್ಟು", "meaning": "how much" }
+      ]
+    },
+    {
+      "kannada": "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡ್ತೀರಾ?",
+      "english": "Can you reduce the price a little?",
+      "romanization": "swalpa kadime maadteera?",
+      "context": "Useful for bargaining or asking for a discount.",
+      "breakdown": [
+        { "word": "ಸ್ವಲ್ಪ", "meaning": "a little" },
+        { "word": "ಕಡಿಮೆ", "meaning": "less/reduce" },
+        { "word": "ಮಾಡ್ತೀರಾ", "meaning": "will you do?" }
+      ]
+    },
+    {
+      "kannada": "ಇದು ತುಂಬಾ ದುಬಾರಿ",
+      "english": "This is very expensive",
+      "romanization": "idu tumba dubaari",
+      "context": "Reacting to a high price during shopping.",
+      "breakdown": [
+        { "word": "ಇದು", "meaning": "this" },
+        { "word": "ತುಂಬಾ", "meaning": "very" },
+        { "word": "ದುಬಾರಿ", "meaning": "expensive/costly" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ಇದು ಬೇಕು",
+      "english": "I want this",
+      "romanization": "nanage idu beku",
+      "context": "Expressing interest in buying a particular item.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "for me/to me" },
+        { "word": "ಇದು", "meaning": "this" },
+        { "word": "ಬೇಕು", "meaning": "want/need/required" }
+      ]
+    },
+    {
+      "kannada": "ಇದಕ್ಕೆ ಬಿಲ್ ಕೊಡ್ತೀರಾ?",
+      "english": "Can you give me the bill for this?",
+      "romanization": "idakke bill kodteera?",
+      "context": "Requesting a receipt or bill after purchase.",
+      "breakdown": [
+        { "word": "ಇದಕ್ಕೆ", "meaning": "for this" },
+        { "word": "ಬಿಲ್", "meaning": "bill/receipt" },
+        { "word": "ಕೊಡ್ತೀರಾ", "meaning": "will you give?" }
+      ]
+    },
+    {
+      "kannada": "ಇದಕ್ಕೆ ಬೇರೆ ಬಣ್ಣ ಇದೆಯಾ?",
+      "english": "Do you have this in another color?",
+      "romanization": "idakke bere banna ideyaa?",
+      "context": "Asking if the item is available in a different color.",
+      "breakdown": [
+        { "word": "ಇದಕ್ಕೆ", "meaning": "for this" },
+        { "word": "ಬೇರೆ", "meaning": "other/another" },
+        { "word": "ಬಣ್ಣ", "meaning": "color" },
+        { "word": "ಇದೆಯಾ", "meaning": "is there?" }
+      ]
+    },
+    {
+      "kannada": "ಇದಕ್ಕೆ ಬೇರೆ ಗಾತ್ರ ಇದೆಯಾ?",
+      "english": "Do you have this in another size?",
+      "romanization": "idakke bere gaatra ideyaa?",
+      "context": "Useful for clothes, shoes, or items with sizes.",
+      "breakdown": [
+        { "word": "ಇದಕ್ಕೆ", "meaning": "for this" },
+        { "word": "ಬೇರೆ", "meaning": "other/another" },
+        { "word": "ಗಾತ್ರ", "meaning": "size/dimension" },
+        { "word": "ಇದೆಯಾ", "meaning": "is there?" }
+      ]
+    },
+    {
+      "kannada": "ನಗದು ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಾ?",
+      "english": "Do you accept cash?",
+      "romanization": "nagadu tegedukoḷḷutteera?",
+      "context": "Asking about payment methods in a shop.",
+      "breakdown": [
+        { "word": "ನಗದು", "meaning": "cash" },
+        { "word": "ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಾ", "meaning": "do you accept?" }
+      ]
+    },
+    {
+      "kannada": "ಕಾರ್ಡ್ ಸ್ವೈಪ್ ಮಾಡ್ಕೊಳ್ತೀರಾ?",
+      "english": "Do you accept card payments?",
+      "romanization": "kaard swipe maadkoḷtteera?",
+      "context": "Checking if the shop accepts debit/credit cards.",
+      "breakdown": [
+        { "word": "ಕಾರ್ಡ್", "meaning": "card" },
+        { "word": "ಸ್ವೈಪ್", "meaning": "swipe" },
+        { "word": "ಮಾಡ್ಕೊಳ್ತೀರಾ", "meaning": "do you accept/do?" }
+      ]
+    }
+  ]
+},
+    {
+  "id": "basic-questions",
+  "title": "Basic Questions",
+  "subtitle": "The essential question words",
+  "items": [
+    {
+      "kannada": "ಇದು ಏನು?",
+      "english": "What is this?",
+      "romanization": "idu enu?",
+      "context": "Asking to identify an object nearby.",
+      "breakdown": [
+        { "word": "ಇದು", "meaning": "this" },
+        { "word": "ಏನು", "meaning": "what" }
+      ]
+    },
+    {
+      "kannada": "ಅದು ಏನು?",
+      "english": "What is that?",
+      "romanization": "adu enu?",
+      "context": "Asking about something farther away.",
+      "breakdown": [
+        { "word": "ಅದು", "meaning": "that" },
+        { "word": "ಏನು", "meaning": "what" }
+      ]
+    },
+    {
+      "kannada": "ಅವರು ಯಾರು?",
+      "english": "Who is he/she?",
+      "romanization": "avaru yaaru?",
+      "context": "Asking to identify a person (respectful form).",
+      "breakdown": [
+        { "word": "ಅವರು", "meaning": "he/she (respectful/they)" },
+        { "word": "ಯಾರು", "meaning": "who" }
+      ]
+    },
+    {
+      "kannada": "ಇವರು ಯಾರು?",
+      "english": "Who is this person?",
+      "romanization": "ivaru yaaru?",
+      "context": "Polite way to ask about someone close by.",
+      "breakdown": [
+        { "word": "ಇವರು", "meaning": "this person (respectful)" },
+        { "word": "ಯಾರು", "meaning": "who" }
+      ]
+    },
+    {
+      "kannada": "ಯಾಕೆ?",
+      "english": "Why?",
+      "romanization": "yaake?",
+      "context": "A simple way to ask for a reason or explanation.",
+      "breakdown": [
+        { "word": "ಯಾಕೆ", "meaning": "why" }
+      ]
+    },
+    {
+      "kannada": "ಎಲ್ಲಿ?",
+      "english": "Where?",
+      "romanization": "elli?",
+      "context": "Asking about location or place.",
+      "breakdown": [
+        { "word": "ಎಲ್ಲಿ", "meaning": "where" }
+      ]
+    },
+    {
+      "kannada": "ಯಾವಾಗ?",
+      "english": "When?",
+      "romanization": "yaavaaga?",
+      "context": "Asking about time or occasion.",
+      "breakdown": [
+        { "word": "ಯಾವಾಗ", "meaning": "when" }
+      ]
+    },
+    {
+      "kannada": "ಹೇಗೆ?",
+      "english": "How?",
+      "romanization": "hege?",
+      "context": "Asking about manner, way, or method.",
+      "breakdown": [
+        { "word": "ಹೇಗೆ", "meaning": "how" }
+      ]
+    },
+    {
+      "kannada": "ಎಷ್ಟು?",
+      "english": "How much?/How many?",
+      "romanization": "eshtu?",
+      "context": "Asking about quantity, number, or price.",
+      "breakdown": [
+        { "word": "ಎಷ್ಟು", "meaning": "how much/how many" }
+      ]
+    },
+    {
+      "kannada": "ಏಕೆ ಅಲ್ಲ?",
+      "english": "Why not?",
+      "romanization": "eke alla?",
+      "context": "Asking for a reason something is not possible or rejected.",
+      "breakdown": [
+        { "word": "ಏಕೆ", "meaning": "why" },
+        { "word": "ಅಲ್ಲ", "meaning": "not/no" }
+      ]
+    }
+  ]
+},
+    {
+  "id": "transportation",
+  "title": "Transportation",
+  "subtitle": "Using autos and buses",
+  "items": [
+    {
+      "kannada": "ಮೆಜೆಸ್ಟಿಕ್‌ಗೆ ಹೋಗುತ್ತಾ?",
+      "english": "Does this go to Majestic?",
+      "romanization": "Majestic-ge hoguttaa?",
+      "context": "Asking a bus conductor or auto driver if they go to a destination.",
+      "breakdown": [
+        { "word": "ಮೆಜೆಸ್ಟಿಕ್‌ಗೆ", "meaning": "to Majestic (a major bus/metro hub)" },
+        { "word": "ಹೋಗುತ್ತಾ", "meaning": "does it go?" }
+      ]
+    },
+    {
+      "kannada": "ಎಷ್ಟು ಆಗತ್ತೆ?",
+      "english": "How much will it be?",
+      "romanization": "eshtu aagatte?",
+      "context": "Asking for the fare before boarding or starting the ride.",
+      "breakdown": [
+        { "word": "ಎಷ್ಟು", "meaning": "how much" },
+        { "word": "ಆಗತ್ತೆ", "meaning": "will it be/become" }
+      ]
+    },
+    {
+      "kannada": "ಮೀಟರ್ ಹಾಕಿ",
+      "english": "Put on the meter",
+      "romanization": "meter haaki",
+      "context": "Asking an auto driver to use the meter instead of a fixed fare.",
+      "breakdown": [
+        { "word": "ಮೀಟರ್", "meaning": "meter" },
+        { "word": "ಹಾಕಿ", "meaning": "switch on/put on" }
+      ]
+    },
+    {
+      "kannada": "ಸ್ವಲ್ಪ ಬೇಗ ಹೋಗಿ",
+      "english": "Please go a little faster",
+      "romanization": "swalpa bega hogi",
+      "context": "Requesting the driver to go slightly faster.",
+      "breakdown": [
+        { "word": "ಸ್ವಲ್ಪ", "meaning": "a little" },
+        { "word": "ಬೇಗ", "meaning": "fast" },
+        { "word": "ಹೋಗಿ", "meaning": "go (formal/polite)" }
+      ]
+    },
+    {
+      "kannada": "ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ",
+      "english": "Stop here",
+      "romanization": "illi nillisi",
+      "context": "Telling the driver to stop at the current location.",
+      "breakdown": [
+        { "word": "ಇಲ್ಲಿ", "meaning": "here" },
+        { "word": "ನಿಲ್ಲಿಸಿ", "meaning": "stop (formal)" }
+      ]
+    },
+    {
+      "kannada": "ಮುಂದೆ ನಿಲ್ಲಿಸಿ",
+      "english": "Stop ahead",
+      "romanization": "munde nillisi",
+      "context": "Telling the driver to stop a little further down the road.",
+      "breakdown": [
+        { "word": "ಮುಂದೆ", "meaning": "ahead/in front" },
+        { "word": "ನಿಲ್ಲಿಸಿ", "meaning": "stop (formal)" }
+      ]
+    },
+    {
+      "kannada": "ಇದು ಎಲ್ಲಿ ಹೋಗುತ್ತೆ?",
+      "english": "Where does this go?",
+      "romanization": "idu elli hogutte?",
+      "context": "Asking about the destination of a bus or shared auto.",
+      "breakdown": [
+        { "word": "ಇದು", "meaning": "this" },
+        { "word": "ಎಲ್ಲಿ", "meaning": "where" },
+        { "word": "ಹೋಗುತ್ತೆ", "meaning": "does it go" }
+      ]
+    },
+    {
+      "kannada": "ಯಾವ ಸ್ಟಾಪ್‌ನಲ್ಲಿ ಇಳಿಯಬೇಕು?",
+      "english": "Which stop should I get down at?",
+      "romanization": "yaava stop-nalli iliyabeku?",
+      "context": "Asking someone for guidance about where to get off the bus.",
+      "breakdown": [
+        { "word": "ಯಾವ", "meaning": "which" },
+        { "word": "ಸ್ಟಾಪ್‌ನಲ್ಲಿ", "meaning": "at the stop" },
+        { "word": "ಇಳಿಯಬೇಕು", "meaning": "should get down" }
+      ]
+    }
+  ]
+},
+    {
+  "id": "time-and-date",
+  "title": "Time and Date",
+  "subtitle": "Asking about time and days",
+  "items": [
+    {
+      "kannada": "ಸಮಯ ಎಷ್ಟು?",
+      "english": "What time is it?",
+      "romanization": "samaya eshtu?",
+      "context": "Asking for the current time.",
+      "breakdown": [
+        { "word": "ಸಮಯ", "meaning": "time" },
+        { "word": "ಎಷ್ಟು", "meaning": "how much/what" }
+      ]
+    },
+    {
+      "kannada": "ಈಗ ಎಷ್ಟು ಗಂಟೆ?",
+      "english": "What time is it now?",
+      "romanization": "iga eshtu gante?",
+      "context": "Another common way of asking for the current time.",
+      "breakdown": [
+        { "word": "ಈಗ", "meaning": "now" },
+        { "word": "ಎಷ್ಟು", "meaning": "how much/what" },
+        { "word": "ಗಂಟೆ", "meaning": "hour/time" }
+      ]
+    },
+    {
+      "kannada": "ಇವತ್ತು ಭಾನುವಾರ",
+      "english": "Today is Sunday",
+      "romanization": "ivattu bhanuvara",
+      "context": "Stating the day of the week.",
+      "breakdown": [
+        { "word": "ಇವತ್ತು", "meaning": "today" },
+        { "word": "ಭಾನುವಾರ", "meaning": "Sunday" }
+      ]
+    },
+    {
+      "kannada": "ನಿನ್ನೆ ಶನಿವಾರ",
+      "english": "Yesterday was Saturday",
+      "romanization": "ninne shanivara",
+      "context": "Talking about the previous day.",
+      "breakdown": [
+        { "word": "ನಿನ್ನೆ", "meaning": "yesterday" },
+        { "word": "ಶನಿವಾರ", "meaning": "Saturday" }
+      ]
+    },
+    {
+      "kannada": "ನಾಳೆ ಸಿಗೋಣ",
+      "english": "Let's meet tomorrow",
+      "romanization": "naale sigona",
+      "context": "A common way to say 'see you tomorrow'.",
+      "breakdown": [
+        { "word": "ನಾಳೆ", "meaning": "tomorrow" },
+        { "word": "ಸಿಗೋಣ", "meaning": "let's meet" }
+      ]
+    },
+    {
+      "kannada": "ಮುಂದಿನ ವಾರ ಭೇಟಿಯಾಗೋಣ",
+      "english": "Let's meet next week",
+      "romanization": "mundina vaara bhetiaagona",
+      "context": "Suggesting a meeting in the following week.",
+      "breakdown": [
+        { "word": "ಮುಂದಿನ", "meaning": "next" },
+        { "word": "ವಾರ", "meaning": "week" },
+        { "word": "ಭೇಟಿಯಾಗೋಣ", "meaning": "let's meet" }
+      ]
+    },
+    {
+      "kannada": "ಬೆಳಗ್ಗೆ ಎದ್ದು ಬನ್ನಿ",
+      "english": "Come in the morning",
+      "romanization": "belagge eddu banni",
+      "context": "Telling someone to arrive in the morning.",
+      "breakdown": [
+        { "word": "ಬೆಳಗ್ಗೆ", "meaning": "morning" },
+        { "word": "ಎದ್ದು", "meaning": "wake/get up" },
+        { "word": "ಬನ್ನಿ", "meaning": "come (polite)" }
+      ]
+    },
+    {
+      "kannada": "ಸಂಜೆ ಫೋನ್ ಮಾಡ್ತೀನಿ",
+      "english": "I’ll call in the evening",
+      "romanization": "sanje phone maadthini",
+      "context": "Making a plan to call later in the day.",
+      "breakdown": [
+        { "word": "ಸಂಜೆ", "meaning": "evening" },
+        { "word": "ಫೋನ್", "meaning": "phone" },
+        { "word": "ಮಾಡ್ತೀನಿ", "meaning": "I will do" }
+      ]
+    }
+  ]
+},
+    {
+  "id": "basic-needs",
+  "title": "Basic Needs",
+  "subtitle": "Expressing needs like hunger and thirst",
+  "items": [
+    {
+      "kannada": "ನನಗೆ ಹಸಿವಾಗಿದೆ",
+      "english": "I am hungry",
+      "romanization": "nanage hasivaagide",
+      "context": "When you feel hungry.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ಹಸಿವಾಗಿದೆ", "meaning": "am hungry (literally: hunger is there to me)" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ನೀರು ಬೇಕು",
+      "english": "I want water",
+      "romanization": "nanage neeru beku",
+      "context": "When you are thirsty and need water.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ನೀರು", "meaning": "water" },
+        { "word": "ಬೇಕು", "meaning": "want/need" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ನಿದ್ರೆ ಬರುತ್ತಿದೆ",
+      "english": "I am feeling sleepy",
+      "romanization": "nanage nidre baruttide",
+      "context": "When you feel like sleeping.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ನಿದ್ರೆ", "meaning": "sleep" },
+        { "word": "ಬರುತ್ತಿದೆ", "meaning": "is coming" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ಆಯಾಸವಾಗಿದೆ",
+      "english": "I am tired",
+      "romanization": "nanage aayaasa vaagide",
+      "context": "Expressing tiredness after work, travel, etc.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ಆಯಾಸವಾಗಿದೆ", "meaning": "am tired (literally: tiredness is there to me)" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ಔಷಧಿ ಬೇಕು",
+      "english": "I need medicine",
+      "romanization": "nanage aushadhi beku",
+      "context": "When asking for medicine at a pharmacy or telling someone you need it.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ಔಷಧಿ", "meaning": "medicine" },
+        { "word": "ಬೇಕು", "meaning": "need" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ನೋವು ಇದೆ",
+      "english": "I am in pain",
+      "romanization": "nanage novvu ide",
+      "context": "Expressing pain in the body (headache, stomach pain, etc.).",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ನೋವು", "meaning": "pain" },
+        { "word": "ಇದೆ", "meaning": "is there" }
+      ]
+    },
+    {
+      "kannada": "ಸಹಾಯ ಮಾಡಿ",
+      "english": "Help me",
+      "romanization": "sahaaya maadi",
+      "context": "Calling for help in an emergency or urgent situation.",
+      "breakdown": [
+        { "word": "ಸಹಾಯ", "meaning": "help" },
+        { "word": "ಮಾಡಿ", "meaning": "do (polite imperative)" }
+      ]
+    },
+    {
+      "kannada": "ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ?",
+      "english": "Where is the toilet?",
+      "romanization": "shouchalaya ellide?",
+      "context": "Asking for the location of the restroom.",
+      "breakdown": [
+        { "word": "ಶೌಚಾಲಯ", "meaning": "toilet/restroom" },
+        { "word": "ಎಲ್ಲಿದೆ", "meaning": "where is it" }
+      ]
+    }
+  ]
+},
+    {
+  "id": "polite-expressions",
+  "title": "Polite Expressions",
+  "subtitle": "Essential polite words",
+  "items": [
+    {
+      "kannada": "ದಯವಿಟ್ಟು",
+      "english": "Please",
+      "romanization": "dayavittu",
+      "context": "Used to make a request polite.",
+      "breakdown": [
+        { "word": "ದಯವಿಟ್ಟು", "meaning": "please" }
+      ]
+    },
+    {
+      "kannada": "ಧನ್ಯವಾದಗಳು",
+      "english": "Thank you",
+      "romanization": "dhanyavaadagalu",
+      "context": "Used to express gratitude.",
+      "breakdown": [
+        { "word": "ಧನ್ಯವಾದಗಳು", "meaning": "thank you (plural/polite form)" }
+      ]
+    },
+    {
+      "kannada": "ಸ್ವಾಗತ",
+      "english": "You're welcome",
+      "romanization": "swaagata",
+      "context": "A polite reply after someone says 'thank you'.",
+      "breakdown": [
+        { "word": "ಸ್ವಾಗತ", "meaning": "welcome" }
+      ]
+    },
+    {
+      "kannada": "ಕ್ಷಮಿಸಿ",
+      "english": "Sorry / Excuse me",
+      "romanization": "kshamisi",
+      "context": "Used to apologize or get someone's attention.",
+      "breakdown": [
+        { "word": "ಕ್ಷಮಿಸಿ", "meaning": "sorry/excuse me" }
+      ]
+    },
+    {
+      "kannada": "ಪರವಾಗಿಲ್ಲ",
+      "english": "It's okay / Never mind",
+      "romanization": "paravaagilla",
+      "context": "A response to an apology or to say something is not a problem.",
+      "breakdown": [
+        { "word": "ಪರವಾಗಿಲ್ಲ", "meaning": "it doesn't matter / it's fine" }
+      ]
+    },
+    {
+      "kannada": "ನಮಸ್ಕಾರ",
+      "english": "Hello / Greetings",
+      "romanization": "namaskaara",
+      "context": "A polite way of saying hello or greeting someone formally.",
+      "breakdown": [
+        { "word": "ನಮಸ್ಕಾರ", "meaning": "greetings/hello" }
+      ]
+    },
+    {
+      "kannada": "ಮತ್ತೆ ಸಿಗೋಣ",
+      "english": "See you again",
+      "romanization": "matte sigona",
+      "context": "Polite way to take leave and express hope to meet again.",
+      "breakdown": [
+        { "word": "ಮತ್ತೆ", "meaning": "again" },
+        { "word": "ಸಿಗೋಣ", "meaning": "let's meet" }
+      ]
+    }
+  ]
+}
+,
+    {
+  "id": "understanding",
+  "title": "Understanding",
+  "subtitle": "Expressing comprehension",
+  "items": [
+    {
+      "kannada": "ನನಗೆ ಅರ್ಥವಾಯಿತು",
+      "english": "I understood",
+      "romanization": "nanage arthavayitu",
+      "context": "When you have understood something.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ಅರ್ಥವಾಯಿತು", "meaning": "it was understood" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ಅರ್ಥವಾಗಲಿಲ್ಲ",
+      "english": "I did not understand",
+      "romanization": "nanage arthavaagalilla",
+      "context": "When you have not understood something.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ಅರ್ಥವಾಗಲಿಲ್ಲ", "meaning": "it was not understood" }
+      ]
+    },
+    {
+      "kannada": "ಮತ್ತೆ ಹೇಳಿ",
+      "english": "Say it again",
+      "romanization": "matte heli",
+      "context": "Asking someone to repeat what they said.",
+      "breakdown": [
+        { "word": "ಮತ್ತೆ", "meaning": "again" },
+        { "word": "ಹೇಳಿ", "meaning": "say (formal)" }
+      ]
+    },
+    {
+      "kannada": "ನಿನಗೆ ಅರ್ಥವಾಗಿತ್ತೇ?",
+      "english": "Did you understand?",
+      "romanization": "ninage arthavaagitte?",
+      "context": "Asking if someone understood what was said.",
+      "breakdown": [
+        { "word": "ನಿನಗೆ", "meaning": "to you" },
+        { "word": "ಅರ್ಥವಾಗಿತ್ತೇ", "meaning": "did it get understood?" }
+      ]
+    },
+    {
+      "kannada": "ಸ್ವಲ್ಪ ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ",
+      "english": "Please speak slowly",
+      "romanization": "swalpa nidhaanavaagi maatnaadi",
+      "context": "Polite request when you need someone to slow down their speech.",
+      "breakdown": [
+        { "word": "ಸ್ವಲ್ಪ", "meaning": "a little" },
+        { "word": "ನಿಧಾನವಾಗಿ", "meaning": "slowly" },
+        { "word": "ಮಾತನಾಡಿ", "meaning": "speak (formal)" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ಗೊತ್ತಿದೆ",
+      "english": "I know",
+      "romanization": "nanage gottide",
+      "context": "When you already know something.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ಗೊತ್ತಿದೆ", "meaning": "known/known to me" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ಗೊತ್ತಿಲ್ಲ",
+      "english": "I don't know",
+      "romanization": "nanage gottilla",
+      "context": "When you don’t know something.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ಗೊತ್ತಿಲ್ಲ", "meaning": "not known" }
+      ]
+    }
+  ]
+}
+,
+    {
+  "id": "emergency",
+  "title": "Emergency",
+  "subtitle": "Phrases for urgent situations",
+  "items": [
+    {
+      "kannada": "ಸಹಾಯ ಮಾಡಿ!",
+      "english": "Help!",
+      "romanization": "sahaaya maadi!",
+      "context": "A call for help in an emergency.",
+      "breakdown": [
+        { "word": "ಸಹಾಯ", "meaning": "help" },
+        { "word": "ಮಾಡಿ", "meaning": "do (formal)" }
+      ]
+    },
+    {
+      "kannada": "ನನಗೆ ಹುಷಾರಿಲ್ಲ",
+      "english": "I am not feeling well",
+      "romanization": "nanage hushaarilla",
+      "context": "When you are feeling sick.",
+      "breakdown": [
+        { "word": "ನನಗೆ", "meaning": "to me" },
+        { "word": "ಹುಷಾರಿಲ್ಲ", "meaning": "not well" }
+      ]
+    },
+    {
+      "kannada": "ಡಾಕ್ಟರ್ ಬೇಕು",
+      "english": "I need a doctor",
+      "romanization": "daaktar beku",
+      "context": "When you need to see a doctor.",
+      "breakdown": [
+        { "word": "ಡಾಕ್ಟರ್", "meaning": "doctor" },
+        { "word": "ಬೇಕು", "meaning": "is needed" }
+      ]
+    },
+    {
+      "kannada": "ಪೊಲೀಸರನ್ನು ಕರೆ ಮಾಡಿ",
+      "english": "Call the police",
+      "romanization": "polīsarannu kare maadi",
+      "context": "When you need the police urgently.",
+      "breakdown": [
+        { "word": "ಪೊಲೀಸರನ್ನು", "meaning": "police (object)" },
+        { "word": "ಕರೆ ಮಾಡಿ", "meaning": "make a call" }
+      ]
+    },
+    {
+      "kannada": "ಆಂಬ್ಯುಲೆನ್ಸ್ ಕರೆ ಮಾಡಿ",
+      "english": "Call an ambulance",
+      "romanization": "aambyulens kare maadi",
+      "context": "When urgent medical transport is needed.",
+      "breakdown": [
+        { "word": "ಆಂಬ್ಯುಲೆನ್ಸ್", "meaning": "ambulance" },
+        { "word": "ಕರೆ ಮಾಡಿ", "meaning": "make a call" }
+      ]
+    },
+    {
+      "kannada": "ಬೆಂಕಿ!",
+      "english": "Fire!",
+      "romanization": "benki!",
+      "context": "To alert others about a fire.",
+      "breakdown": [
+        { "word": "ಬೆಂಕಿ", "meaning": "fire" }
+      ]
+    },
+    {
+      "kannada": "ನಾನು ದಾರಿ ತಪ್ಪಿದ್ದೇನೆ",
+      "english": "I am lost",
+      "romanization": "naanu daari tappiddēne",
+      "context": "When you don’t know where you are or how to reach your destination.",
+      "breakdown": [
+        { "word": "ನಾನು", "meaning": "I" },
+        { "word": "ದಾರಿ", "meaning": "way/path" },
+        { "word": "ತಪ್ಪಿದ್ದೇನೆ", "meaning": "am lost" }
+      ]
+    }
+  ]
+}
+,
+    {
+  "id": "family",
+  "title": "Family",
+  "subtitle": "Basic family-related words",
+  "items": [
+    {
+      "kannada": "ಇದು ನನ್ನ ತಾಯಿ",
+      "english": "This is my mother",
+      "romanization": "idu nanna taayi",
+      "context": "Introducing your mother.",
+      "breakdown": [
+        { "word": "ಇದು", "meaning": "this is" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ತಾಯಿ", "meaning": "mother" }
+      ]
+    },
+    {
+      "kannada": "ಇದು ನನ್ನ ತಂದೆ",
+      "english": "This is my father",
+      "romanization": "idu nanna tande",
+      "context": "Introducing your father.",
+      "breakdown": [
+        { "word": "ಇದು", "meaning": "this is" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ತಂದೆ", "meaning": "father" }
+      ]
+    },
+    {
+      "kannada": "ಇವನು ನನ್ನ ಅಣ್ಣ",
+      "english": "He is my elder brother",
+      "romanization": "ivanu nanna anna",
+      "context": "Introducing your elder brother.",
+      "breakdown": [
+        { "word": "ಇವನು", "meaning": "he (nearby)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಅಣ್ಣ", "meaning": "elder brother" }
+      ]
+    },
+    {
+      "kannada": "ಇವಳು ನನ್ನ ಅಕ್ಕ",
+      "english": "She is my elder sister",
+      "romanization": "ivalu nanna akka",
+      "context": "Introducing your elder sister.",
+      "breakdown": [
+        { "word": "ಇವಳು", "meaning": "she (nearby)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಅಕ್ಕ", "meaning": "elder sister" }
+      ]
+    },
+    {
+      "kannada": "ಇವನು ನನ್ನ ತಮ್ಮ",
+      "english": "He is my younger brother",
+      "romanization": "ivanu nanna tamma",
+      "context": "Introducing your younger brother.",
+      "breakdown": [
+        { "word": "ಇವನು", "meaning": "he (nearby)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ತಮ್ಮ", "meaning": "younger brother" }
+      ]
+    },
+    {
+      "kannada": "ಇವಳು ನನ್ನ ತಂಗಿ",
+      "english": "She is my younger sister",
+      "romanization": "ivalu nanna tangi",
+      "context": "Introducing your younger sister.",
+      "breakdown": [
+        { "word": "ಇವಳು", "meaning": "she (nearby)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ತಂಗಿ", "meaning": "younger sister" }
+      ]
+    },
+    {
+      "kannada": "ಇವರು ನನ್ನ ಅಜ್ಜ",
+      "english": "He is my grandfather",
+      "romanization": "ivaru nanna ajja",
+      "context": "Introducing your grandfather.",
+      "breakdown": [
+        { "word": "ಇವರು", "meaning": "he (respectful)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಅಜ್ಜ", "meaning": "grandfather" }
+      ]
+    },
+    {
+      "kannada": "ಇವರು ನನ್ನ ಅಜ್ಜಿ",
+      "english": "She is my grandmother",
+      "romanization": "ivaru nanna ajji",
+      "context": "Introducing your grandmother.",
+      "breakdown": [
+        { "word": "ಇವರು", "meaning": "she (respectful)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಅಜ್ಜಿ", "meaning": "grandmother" }
+      ]
+    },
+    {
+      "kannada": "ಇವನು ನನ್ನ ಮಗ",
+      "english": "He is my son",
+      "romanization": "ivanu nanna maga",
+      "context": "Introducing your son.",
+      "breakdown": [
+        { "word": "ಇವನು", "meaning": "he (nearby)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಮಗ", "meaning": "son" }
+      ]
+    },
+    {
+      "kannada": "ಇವಳು ನನ್ನ ಮಗಳು",
+      "english": "She is my daughter",
+      "romanization": "ivalu nanna magalu",
+      "context": "Introducing your daughter.",
+      "breakdown": [
+        { "word": "ಇವಳು", "meaning": "she (nearby)" },
+        { "word": "ನನ್ನ", "meaning": "my" },
+        { "word": "ಮಗಳು", "meaning": "daughter" }
+      ]
+    },
+    {
+      "kannada": "ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ಯಾರಿದ್ದಾರೆ?",
+      "english": "Who is in your house/family?",
+      "romanization": "nimma maneyalli yaariddaare?",
+      "context": "Asking about someone's family.",
+      "breakdown": [
+        { "word": "ನಿಮ್ಮ", "meaning": "your" },
+        { "word": "ಮನೆಯಲ್ಲಿ", "meaning": "in the house" },
+        { "word": "ಯಾರಿದ್ದಾರೆ", "meaning": "who is there" }
+      ]
+    }
+  ]
+}
+,
+    {
+  "id": "saying-goodbye",
+  "title": "Saying Goodbye",
+  "subtitle": "How to end a conversation",
+  "items": [
+    {
+      "kannada": "ಹೋಗಿ ಬರುತ್ತೇನೆ",
+      "english": "I will go and come back",
+      "romanization": "hogi baruttene",
+      "context": "A very common way to say goodbye, implying you will see them again.",
+      "breakdown": [
+        { "word": "ಹೋಗಿ", "meaning": "having gone" },
+        { "word": "ಬರುತ್ತೇನೆ", "meaning": "I will come" }
+      ]
+    },
+    {
+      "kannada": "ಮತ್ತೆ ಸಿಗೋಣ",
+      "english": "Let's meet again",
+      "romanization": "matte sigona",
+      "context": "A common and friendly way to say 'see you later'.",
+      "breakdown": [
+        { "word": "ಮತ್ತೆ", "meaning": "again" },
+        { "word": "ಸಿಗೋಣ", "meaning": "let's meet" }
+      ]
+    },
+    {
+      "kannada": "ಶುಭ ರಾತ್ರಿ",
+      "english": "Good night",
+      "romanization": "shubha raatri",
+      "context": "Wishing someone a good night.",
+      "breakdown": [
+        { "word": "ಶುಭ", "meaning": "good/auspicious" },
+        { "word": "ರಾತ್ರಿ", "meaning": "night" }
+      ]
+    },
+    {
+      "kannada": "ಶುಭೋದಯ",
+      "english": "Good morning",
+      "romanization": "shubhodaya",
+      "context": "Used in the morning, sometimes while parting.",
+      "breakdown": [
+        { "word": "ಶುಭ", "meaning": "good/auspicious" },
+        { "word": "ಓದಯ", "meaning": "rising/morning" }
+      ]
+    },
+    {
+      "kannada": "ಶುಭ ಸಂಜೆ",
+      "english": "Good evening",
+      "romanization": "shubha sanje",
+      "context": "Used in the evening, both greeting and parting.",
+      "breakdown": [
+        { "word": "ಶುಭ", "meaning": "good/auspicious" },
+        { "word": "ಸಂಜೆ", "meaning": "evening" }
+      ]
+    },
+    {
+      "kannada": "ಶುಭವಾಗಲಿ",
+      "english": "May it be good / All the best",
+      "romanization": "shubha vaagali",
+      "context": "A polite, slightly formal way to end a meeting.",
+      "breakdown": [
+        { "word": "ಶುಭ", "meaning": "good/auspicious" },
+        { "word": "ವಾಗಲಿ", "meaning": "may it be" }
+      ]
+    },
+    {
+      "kannada": "ನಾಳೆ ಸಿಗೋಣ",
+      "english": "See you tomorrow",
+      "romanization": "naale sigona",
+      "context": "When you expect to meet again the next day.",
+      "breakdown": [
+        { "word": "ನಾಳೆ", "meaning": "tomorrow" },
+        { "word": "ಸಿಗೋಣ", "meaning": "let's meet" }
+      ]
+    },
+    {
+      "kannada": "ಜಾಗ್ರತೆ ಇರ್ರಿ",
+      "english": "Take care",
+      "romanization": "jaagrate irri",
+      "context": "Friendly way of telling someone to look after themselves.",
+      "breakdown": [
+        { "word": "ಜಾಗ್ರತೆ", "meaning": "care" },
+        { "word": "ಇರ್ರಿ", "meaning": "be (respectful form)" }
+      ]
+    }
+  ]
+}
+
   ]
 }

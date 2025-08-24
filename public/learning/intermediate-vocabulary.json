@@ -1,0 +1,834 @@
+{
+  "id": "intermediate-vocabulary",
+  "title": "Intermediate Kannada Words",
+  "description": "Expanded vocabulary for intermediate learners",
+  "level": "intermediate",
+  "type": "vocabulary",
+  "sections": [
+    {
+      "id": "emotions",
+      "title": "Emotions & Feelings",
+      "subtitle": "Words to express inner states",
+      "items": [
+        {"kannada": "ಸಂತೋಷ", "english": "Happiness", "romanization": "santosha", "context": "General word for joy"},
+        {"kannada": "ದುಃಖ", "english": "Sadness", "romanization": "duhkha", "context": "Opposite of happiness"},
+        {"kannada": "ಕೋಪ", "english": "Anger", "romanization": "kopa", "context": "Used when someone is upset"},
+        {"kannada": "ಭಯ", "english": "Fear", "romanization": "bhaya", "context": "Feeling of being afraid"},
+        {"kannada": "ಆಶ್ಚರ್ಯ", "english": "Surprise", "romanization": "aashcharya", "context": "Used when shocked or amazed"},
+        {"kannada": "ಪ್ರೀತಿ", "english": "Love/Affection", "romanization": "preeti", "context": "Affectionate feeling"},
+        {"kannada": "ದ್ವೇಷ", "english": "Hatred", "romanization": "dvesha", "context": "Strong dislike"},
+        {"kannada": "ನಾಚಿಕೆ", "english": "Shyness/Embarrassment", "romanization": "naachike", "context": "Feeling shy"},
+        {"kannada": "ಹಂಬಲ", "english": "Desire/Longing", "romanization": "hambala", "context": "Strong wish for something"},
+        {"kannada": "ಚಿಂತನೆ", "english": "Worry/Thought", "romanization": "chintane", "context": "Used for concern or deep thought"}
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food & Dining",
+      "subtitle": "Words related to meals and ingredients",
+      "items": [
+        {"kannada": "ಹಣ್ಣು", "english": "Fruit", "romanization": "hannu", "context": "Generic word for fruit"},
+        {"kannada": "ತರಕಾರಿ", "english": "Vegetable", "romanization": "tarakaari", "context": "Generic for vegetables"},
+        {"kannada": "ಹಾಲು", "english": "Milk", "romanization": "haalu", "context": "Common drink"},
+        {"kannada": "ಬೆಣ್ಣೆ", "english": "Butter", "romanization": "benne", "context": "Used in cooking"},
+        {"kannada": "ಸಕ್ಕರೆ", "english": "Sugar", "romanization": "sakkare", "context": "Sweetener"},
+        {"kannada": "ಉಪ್ಪು", "english": "Salt", "romanization": "uppu", "context": "Essential for taste"},
+        {"kannada": "ಮಸಾಲೆ", "english": "Spice", "romanization": "masale", "context": "Used in Indian cooking"},
+        {"kannada": "ಚಹಾ", "english": "Tea", "romanization": "chahaa", "context": "Popular hot beverage"},
+        {"kannada": "ಕಾಫಿ", "english": "Coffee", "romanization": "kaafi", "context": "Common drink"},
+        {"kannada": "ಊಟ", "english": "Meal/Food", "romanization": "oota", "context": "General word for eating"}
+      ]
+    },
+    {
+      "id": "nature",
+      "title": "Nature & Environment",
+      "subtitle": "Words related to surroundings",
+      "items": [
+        {"kannada": "ಮರ", "english": "Tree", "romanization": "mara", "context": "Generic tree"},
+        {"kannada": "ಹೂವು", "english": "Flower", "romanization": "hoovu", "context": "Generic flower"},
+        {"kannada": "ಮಳೆ", "english": "Rain", "romanization": "male", "context": "Common weather"},
+        {"kannada": "ಗಾಳಿ", "english": "Wind", "romanization": "gaali", "context": "Air movement"},
+        {"kannada": "ಬೆಳಕು", "english": "Light", "romanization": "belaku", "context": "Opposite of darkness"},
+        {"kannada": "ಕತ್ತಲೆ", "english": "Darkness", "romanization": "kattale", "context": "Opposite of light"},
+        {"kannada": "ಬೆಟ್ಟ", "english": "Mountain", "romanization": "betta", "context": "Large hill"},
+        {"kannada": "ನದಿ", "english": "River", "romanization": "nadi", "context": "Flowing water"},
+        {"kannada": "ಸಮುದ್ರ", "english": "Sea/Ocean", "romanization": "samudra", "context": "Large water body"},
+        {"kannada": "ಮಣ್ಣು", "english": "Soil/Earth", "romanization": "mannu", "context": "Ground material"}
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Travel & Transport",
+      "subtitle": "Words for movement and journeys",
+      "items": [
+        {"kannada": "ರೈಲು", "english": "Train", "romanization": "railu", "context": "Public transport"},
+        {"kannada": "ಬಸ್", "english": "Bus", "romanization": "basu", "context": "Common transport"},
+        {"kannada": "ಕಾರು", "english": "Car", "romanization": "kaaru", "context": "Personal vehicle"},
+        {"kannada": "ಸೈಕಲ್", "english": "Bicycle", "romanization": "saikal", "context": "Two-wheeler"},
+        {"kannada": "ವಿಮಾನ", "english": "Airplane", "romanization": "vimana", "context": "Air transport"},
+        {"kannada": "ರಸ್ತೆ", "english": "Road", "romanization": "raste", "context": "Used for travel"},
+        {"kannada": "ನಿಲ್ದಾಣ", "english": "Station", "romanization": "nildaana", "context": "Place for trains/buses"},
+        {"kannada": "ಪ್ರಯಾಣ", "english": "Journey", "romanization": "prayaana", "context": "Act of traveling"},
+        {"kannada": "ಸಂಚಾರ", "english": "Traffic/Communication", "romanization": "sanchaara", "context": "Movement or connectivity"},
+        {"kannada": "ಟಿಕೆಟ್", "english": "Ticket", "romanization": "tiket", "context": "Required for travel"}
+      ]
+    },
+    {
+      "id": "work",
+      "title": "Work & Study",
+      "subtitle": "Words related to education and jobs",
+      "items": [
+        {"kannada": "ಶಾಲೆ", "english": "School", "romanization": "shaale", "context": "Place for learning"},
+        {"kannada": "ಕಾಲೇಜು", "english": "College", "romanization": "kaaleju", "context": "Higher education"},
+        {"kannada": "ಕಚೇರಿ", "english": "Office", "romanization": "kacheri", "context": "Workplace"},
+        {"kannada": "ಪಾಠ", "english": "Lesson", "romanization": "paatha", "context": "Part of studies"},
+        {"kannada": "ಶಿಕ್ಷಕ", "english": "Teacher", "romanization": "shikshaka", "context": "Male teacher"},
+        {"kannada": "ಶಿಕ್ಷಕಿ", "english": "Female Teacher", "romanization": "shikshakee", "context": "Female teacher"},
+        {"kannada": "ವಿದ್ಯಾರ್ಥಿ", "english": "Student (male)", "romanization": "vidyaarthi", "context": "Learner in school/college"},
+        {"kannada": "ವಿದ್ಯಾರ್ಥಿನಿ", "english": "Student (female)", "romanization": "vidyaarthini", "context": "Female learner"},
+        {"kannada": "ಕೆಲಸ", "english": "Work/Job", "romanization": "kelasa", "context": "General work"},
+        {"kannada": "ವೃತ್ತಿ", "english": "Profession", "romanization": "vrutti", "context": "Career or occupation"}
+      ]
+    },
+    {
+      "id": "health-body",
+      "title": "Health & Body",
+      "subtitle": "Words related to health, body parts, and wellness",
+      "items": [
+        {"kannada": "ತಲೆ", "english": "Head", "romanization": "tale", "context": "Body part"},
+        {"kannada": "ಕಣ್ಣು", "english": "Eye", "romanization": "kaNNu", "context": "Used for seeing"},
+        {"kannada": "ಕಿವಿ", "english": "Ear", "romanization": "kivi", "context": "Used for hearing"},
+        {"kannada": "ಮೂಗು", "english": "Nose", "romanization": "moogu", "context": "Used for breathing/smelling"},
+        {"kannada": "ಬಾಯಿ", "english": "Mouth", "romanization": "baayi", "context": "Used for eating/speaking"},
+        {"kannada": "ಕೈ", "english": "Hand/Arm", "romanization": "kai", "context": "Used for holding, working"},
+        {"kannada": "ಕಾಲು", "english": "Leg/Foot", "romanization": "kaalu", "context": "Used for walking"},
+        {"kannada": "ಹೃದಯ", "english": "Heart", "romanization": "hrudaya", "context": "Vital organ"},
+        {"kannada": "ರಕ್ತ", "english": "Blood", "romanization": "rakta", "context": "Essential fluid of body"},
+        {"kannada": "ಮದ್ದು", "english": "Medicine", "romanization": "maddu", "context": "Used for treatment"}
+      ]
+    },
+    {
+      "id": "clothing",
+      "title": "Clothing & Accessories",
+      "subtitle": "Everyday clothing and accessories vocabulary",
+      "items": [
+        {"kannada": "ಬಟ್ಟೆ", "english": "Cloth/Clothes", "romanization": "baṭṭe", "context": "General clothing"},
+        {"kannada": "ಉಡುಪು", "english": "Dress/Clothes", "romanization": "uḍupu", "context": "Formal word for clothes"},
+        {"kannada": "ಸೀರೆ", "english": "Saree", "romanization": "siire", "context": "Traditional women’s wear"},
+        {"kannada": "ಶರ್ಟ್", "english": "Shirt", "romanization": "sharṭu", "context": "Western clothing"},
+        {"kannada": "ಪ್ಯಾಂಟ್", "english": "Pants/Trousers", "romanization": "pyaaṇṭu", "context": "Western clothing"},
+        {"kannada": "ಚಪ್ಪಲಿ", "english": "Slippers", "romanization": "chappali", "context": "Footwear"},
+        {"kannada": "ಬೂಟು", "english": "Shoes", "romanization": "bootu", "context": "Formal footwear"},
+        {"kannada": "ಟೋಪಿ", "english": "Cap/Hat", "romanization": "topi", "context": "Headwear"},
+        {"kannada": "ಗಡಿಯಾರ", "english": "Watch/Clock", "romanization": "gadiyaara", "context": "Accessory for time"},
+        {"kannada": "ಬಂಗಾರ", "english": "Gold", "romanization": "bangāra", "context": "Precious metal, jewelry"}
+      ]
+    },
+    {
+      "id": "festivals-culture",
+      "title": "Festivals & Culture",
+      "subtitle": "Kannada festivals, traditions, and culture",
+      "items": [
+        {"kannada": "ಹಬ್ಬ", "english": "Festival", "romanization": "habba", "context": "General word for festival"},
+        {"kannada": "ದಸರಾ", "english": "Dussehra", "romanization": "dasaraa", "context": "Major festival"},
+        {"kannada": "ದೀಪಾವಳಿ", "english": "Diwali", "romanization": "diipaavaḷi", "context": "Festival of lights"},
+        {"kannada": "ಉಗಾದಿ", "english": "Ugadi", "romanization": "ugaadi", "context": "Kannada New Year"},
+        {"kannada": "ಸಂಕ್ರಾಂತಿ", "english": "Makar Sankranti", "romanization": "sankraanti", "context": "Harvest festival"},
+        {"kannada": "ಹಾರೈಕೆ", "english": "Wish (greeting)", "romanization": "haaraike", "context": "Used to greet during festivals"},
+        {"kannada": "ಪೂಜೆ", "english": "Worship/Puja", "romanization": "pooje", "context": "Religious ritual"},
+        {"kannada": "ದೇವಾಲಯ", "english": "Temple", "romanization": "devaalaya", "context": "Place of worship"},
+        {"kannada": "ಮಂಗಲ", "english": "Auspicious", "romanization": "mangala", "context": "Good/holy occasion"},
+        {"kannada": "ಜನ್ಮ ದಿನ", "english": "Birthday", "romanization": "janma dina", "context": "Celebration of birth"}
+      ]
+    },
+    {
+      "id": "feelings-expressions",
+      "title": "Feelings & Expressions",
+      "subtitle": "Words to express different feelings and moods",
+      "items": [
+        {"kannada": "ಸಂತೋಷ", "english": "Happiness", "romanization": "santosha", "context": "Positive feeling"},
+        {"kannada": "ದುಃಖ", "english": "Sadness", "romanization": "duhkha", "context": "Negative feeling"},
+        {"kannada": "ಕೋಪ", "english": "Anger", "romanization": "kopa", "context": "Strong negative feeling"},
+        {"kannada": "ಭಯ", "english": "Fear", "romanization": "bhaya", "context": "Feeling of danger"},
+        {"kannada": "ಪ್ರೇಮ", "english": "Love", "romanization": "prema", "context": "Affection"},
+        {"kannada": "ಆಶ್ಚರ್ಯ", "english": "Surprise", "romanization": "aashcharya", "context": "Unexpected event"},
+        {"kannada": "ನಂಬಿಕೆ", "english": "Trust/Faith", "romanization": "nambike", "context": "Belief"},
+        {"kannada": "ಸ್ನೇಹ", "english": "Friendship", "romanization": "sneha", "context": "Bond between friends"},
+        {"kannada": "ಆರೋಗ್ಯ", "english": "Health", "romanization": "aarogya", "context": "Well-being"},
+        {"kannada": "ಅವಮಾನ", "english": "Insult", "romanization": "avamaana", "context": "Negative expression"}
+      ]
+    },
+    {
+      "id": "time-calendar",
+      "title": "Time & Calendar",
+      "subtitle": "Words for time, days, and months",
+      "items": [
+        {"kannada": "ಸಮಯ", "english": "Time", "romanization": "samaya", "context": "General word for time"},
+        {"kannada": "ಗಂಟೆ", "english": "Hour", "romanization": "gaṇṭe", "context": "Unit of time"},
+        {"kannada": "ನಿಮಿಷ", "english": "Minute", "romanization": "nimiṣa", "context": "Unit of time"},
+        {"kannada": "ದಿನ", "english": "Day", "romanization": "dina", "context": "Day of the week"},
+        {"kannada": "ವಾರ", "english": "Week", "romanization": "vaara", "context": "Seven-day period"},
+        {"kannada": "ತಿಂಗಳು", "english": "Month", "romanization": "tiṅgaḷu", "context": "Calendar month"},
+        {"kannada": "ವರ್ಷ", "english": "Year", "romanization": "varṣa", "context": "12-month cycle"},
+        {"kannada": "ಬೆಳಿಗ್ಗೆ", "english": "Morning", "romanization": "beLigge", "context": "Part of the day"},
+        {"kannada": "ಮಧ್ಯಾಹ್ನ", "english": "Afternoon", "romanization": "madhyaahna", "context": "Part of the day"},
+        {"kannada": "ಸಂಜೆ", "english": "Evening", "romanization": "sañje", "context": "Part of the day"}
+      ]
+    },
+    {
+      "id": "nuanced-emotions",
+      "title": "Nuanced Emotions",
+      "subtitle": "Words expressing deeper feelings",
+      "items": [
+        {
+          "kannada": "ಆತಂಕ",
+          "english": "Anxiety",
+          "romanization": "aatanka",
+          "context": "Feeling of worry or nervousness"
+        },
+        {
+          "kannada": "ಹರ್ಷ",
+          "english": "Joy/Delight",
+          "romanization": "harsha",
+          "context": "Happiness with excitement"
+        },
+        {
+          "kannada": "ವಿಷಾದ",
+          "english": "Sorrow/Regret",
+          "romanization": "vishaada",
+          "context": "Deep sadness or disappointment"
+        },
+        {
+          "kannada": "ಅಸಹನೆ",
+          "english": "Irritation",
+          "romanization": "asahane",
+          "context": "Feeling of annoyance"
+        },
+        {
+          "kannada": "ಭಾವನೆ",
+          "english": "Emotion/Feeling",
+          "romanization": "bhaavane",
+          "context": "General term for feelings"
+        }
+      ]
+    },
+    {
+      "id": "literature-learning",
+      "title": "Literature & Learning",
+      "subtitle": "Words related to study and knowledge",
+      "items": [
+        {
+          "kannada": "ಕವಿತೆ",
+          "english": "Poem",
+          "romanization": "kavite",
+          "context": "Literary composition in verse"
+        },
+        {
+          "kannada": "ಪಾಠ",
+          "english": "Lesson",
+          "romanization": "paatha",
+          "context": "Unit of study or teaching"
+        },
+        {
+          "kannada": "ವಿದ್ಯಾರ್ಥಿ",
+          "english": "Student",
+          "romanization": "vidyaarthi",
+          "context": "Learner in school or college"
+        },
+        {
+          "kannada": "ಶಿಕ್ಷಕ",
+          "english": "Teacher",
+          "romanization": "shikshaka",
+          "context": "One who teaches"
+        },
+        {
+          "kannada": "ಜ್ಞಾನ",
+          "english": "Knowledge",
+          "romanization": "jnaana",
+          "context": "Wisdom or information"
+        }
+      ]
+    },
+    {
+      "id": "extended-travel",
+      "title": "Extended Travel & Places",
+      "subtitle": "Intermediate travel-related terms",
+      "items": [
+        {
+          "kannada": "ದಾರಿ",
+          "english": "Path/Way",
+          "romanization": "daari",
+          "context": "A route to go somewhere"
+        },
+        {
+          "kannada": "ನಿಲ್ದಾಣ",
+          "english": "Station",
+          "romanization": "nildaana",
+          "context": "Bus or train stop"
+        },
+        {
+          "kannada": "ಸಂಚಾರ",
+          "english": "Travel/Communication",
+          "romanization": "sanchaara",
+          "context": "Movement or connectivity"
+        },
+        {
+          "kannada": "ಅತಿಥಿ ಗೃಹ",
+          "english": "Guest House",
+          "romanization": "atithi gruha",
+          "context": "Place for visitors to stay"
+        },
+        {
+          "kannada": "ಪ್ರವಾಸ",
+          "english": "Tour/Trip",
+          "romanization": "pravaasa",
+          "context": "Journey for leisure or work"
+        }
+      ]
+    },
+    {
+      "id": "household-items",
+      "title": "Household Items",
+      "subtitle": "Objects commonly used at home",
+      "items": [
+        {
+          "kannada": "ಕಿಟಕಿ",
+          "english": "Window",
+          "romanization": "kitaki",
+          "context": "Opening for light and air"
+        },
+        {
+          "kannada": "ಬಾಗಿಲು",
+          "english": "Door",
+          "romanization": "baagilu",
+          "context": "Entry to a room or house"
+        },
+        {
+          "kannada": "ಹಾಸಿಗೆ",
+          "english": "Bed",
+          "romanization": "haasige",
+          "context": "Furniture for sleeping"
+        },
+        {
+          "kannada": "ಮೇಜು",
+          "english": "Table",
+          "romanization": "meju",
+          "context": "Furniture for placing items"
+        },
+        {
+          "kannada": "ಕುರ್ಚಿ",
+          "english": "Chair",
+          "romanization": "kurchi",
+          "context": "Seating furniture"
+        }
+      ]
+    },
+    {
+      "id": "social-interactions",
+      "title": "Social Interactions",
+      "subtitle": "Words used in communication and society",
+      "items": [
+        {
+          "kannada": "ಸ್ನೇಹ",
+          "english": "Friendship",
+          "romanization": "sneha",
+          "context": "Bond of companionship"
+        },
+        {
+          "kannada": "ಪರಿಚಯ",
+          "english": "Introduction",
+          "romanization": "parichaya",
+          "context": "Act of introducing oneself or others"
+        },
+        {
+          "kannada": "ಆಮಂತ್ರಣ",
+          "english": "Invitation",
+          "romanization": "aamtrana",
+          "context": "Request to attend event"
+        },
+        {
+          "kannada": "ಸಂವಾದ",
+          "english": "Conversation/Dialogue",
+          "romanization": "samvaada",
+          "context": "Exchange of words"
+        },
+        {
+          "kannada": "ಸಹಾಯ",
+          "english": "Help/Assistance",
+          "romanization": "sahaaya",
+          "context": "Support offered to others"
+        }
+      ]
+    },
+    {
+      "id": "occupations",
+      "title": "Occupations & Professions",
+      "subtitle": "Common jobs and professions",
+      "items": [
+        {
+          "kannada": "ಶಿಕ್ಷಕ",
+          "english": "Teacher",
+          "romanization": "shikshaka",
+          "context": "Person who teaches"
+        },
+        {
+          "kannada": "ವೈದ್ಯ",
+          "english": "Doctor",
+          "romanization": "vaidya",
+          "context": "Medical professional"
+        },
+        {
+          "kannada": "ವಕೀಲ",
+          "english": "Lawyer",
+          "romanization": "vakeela",
+          "context": "Legal professional"
+        },
+        {
+          "kannada": "ಇಂಜಿನಿಯರ್",
+          "english": "Engineer",
+          "romanization": "injinier",
+          "context": "Technical profession"
+        },
+        {
+          "kannada": "ಕೃಷಿಕ",
+          "english": "Farmer",
+          "romanization": "krishika",
+          "context": "Person who farms"
+        },
+        {
+          "kannada": "ಕಲಾವಿದ",
+          "english": "Artist",
+          "romanization": "kalaavida",
+          "context": "Person skilled in art"
+        },
+        {
+          "kannada": "ಪೊಲೀಸ್",
+          "english": "Police",
+          "romanization": "police",
+          "context": "Law enforcement"
+        },
+        {
+          "kannada": "ನಟ",
+          "english": "Actor",
+          "romanization": "nata",
+          "context": "Performer in plays or films"
+        },
+        {
+          "kannada": "ಗಾಯಕ",
+          "english": "Singer",
+          "romanization": "gaayaka",
+          "context": "One who sings"
+        },
+        {
+          "kannada": "ಲೇಖಕ",
+          "english": "Writer/Author",
+          "romanization": "lekhaka",
+          "context": "Person who writes"
+        }
+      ]
+    },
+    {
+      "id": "daily-activities",
+      "title": "Daily Activities",
+      "subtitle": "Words for everyday actions",
+      "items": [
+        {
+          "kannada": "ಏಳುವುದು",
+          "english": "To wake up",
+          "romanization": "eLuvudu",
+          "context": "Action of waking up"
+        },
+        {
+          "kannada": "ಸ್ನಾನ",
+          "english": "Bath",
+          "romanization": "snaana",
+          "context": "Act of bathing"
+        },
+        {
+          "kannada": "ಊಟ",
+          "english": "Meal/Eating",
+          "romanization": "oota",
+          "context": "Having food"
+        },
+        {
+          "kannada": "ಕೆಲಸ",
+          "english": "Work",
+          "romanization": "kelasa",
+          "context": "Job or task"
+        },
+        {
+          "kannada": "ಓದು",
+          "english": "Study/Reading",
+          "romanization": "oodu",
+          "context": "Act of reading or studying"
+        },
+        {
+          "kannada": "ಆಡುವುದು",
+          "english": "To play",
+          "romanization": "aaduvudu",
+          "context": "Engaging in play"
+        },
+        {
+          "kannada": "ಮಲಗುವುದು",
+          "english": "To sleep",
+          "romanization": "malaguvudu",
+          "context": "Going to bed"
+        },
+        {
+          "kannada": "ಹಾಡುವುದು",
+          "english": "To sing",
+          "romanization": "haaduvudu",
+          "context": "Singing action"
+        },
+        {
+          "kannada": "ಕೂತುಕೊಳ್ಳುವುದು",
+          "english": "To sit",
+          "romanization": "kootukoLLuvudu",
+          "context": "Action of sitting"
+        },
+        {
+          "kannada": "ನಡೀತು",
+          "english": "Walking",
+          "romanization": "naditu",
+          "context": "Act of walking"
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "title": "Directions & Movement",
+      "subtitle": "Basic directional words",
+      "items": [
+        {
+          "kannada": "ಎಡ",
+          "english": "Left",
+          "romanization": "eda",
+          "context": "Direction"
+        },
+        {
+          "kannada": "ಬಲ",
+          "english": "Right",
+          "romanization": "bala",
+          "context": "Direction"
+        },
+        {
+          "kannada": "ಮುಂದು",
+          "english": "Forward",
+          "romanization": "mundu",
+          "context": "Movement direction"
+        },
+        {
+          "kannada": "ಹಿಂದೆ",
+          "english": "Back/Behind",
+          "romanization": "hinde",
+          "context": "Position behind"
+        },
+        {
+          "kannada": "ಮೇಲೆ",
+          "english": "Up/Above",
+          "romanization": "mele",
+          "context": "Direction upward"
+        },
+        {
+          "kannada": "ಕೆಳಗೆ",
+          "english": "Down/Below",
+          "romanization": "keLage",
+          "context": "Direction downward"
+        },
+        {
+          "kannada": "ಹತ್ತಿರ",
+          "english": "Near",
+          "romanization": "hattira",
+          "context": "Close proximity"
+        },
+        {
+          "kannada": "ದೂರ",
+          "english": "Far",
+          "romanization": "doora",
+          "context": "Long distance"
+        },
+        {
+          "kannada": "ಮಧ್ಯ",
+          "english": "Middle",
+          "romanization": "madhya",
+          "context": "In between"
+        },
+        {
+          "kannada": "ಮೂಲೆ",
+          "english": "Corner",
+          "romanization": "moole",
+          "context": "Intersection or corner"
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Communication & Media",
+      "subtitle": "Words for expressing and media",
+      "items": [
+        {
+          "kannada": "ಮಾತು",
+          "english": "Word/Speech",
+          "romanization": "maatu",
+          "context": "Spoken word"
+        },
+        {
+          "kannada": "ಸುದ್ದಿ",
+          "english": "News",
+          "romanization": "suddi",
+          "context": "Information update"
+        },
+        {
+          "kannada": "ಪತ್ರಿಕೆ",
+          "english": "Newspaper",
+          "romanization": "patrike",
+          "context": "Daily newspaper"
+        },
+        {
+          "kannada": "ರೇಡಿಯೋ",
+          "english": "Radio",
+          "romanization": "radio",
+          "context": "Broadcast medium"
+        },
+        {
+          "kannada": "ಟೆಲಿವಿಷನ್",
+          "english": "Television",
+          "romanization": "teliviShan",
+          "context": "TV medium"
+        },
+        {
+          "kannada": "ಕಾಗದ",
+          "english": "Paper",
+          "romanization": "kaagada",
+          "context": "Writing material"
+        },
+        {
+          "kannada": "ಪುಸ್ತಕ",
+          "english": "Book",
+          "romanization": "pustaka",
+          "context": "Reading material"
+        },
+        {
+          "kannada": "ಪತ್ರ",
+          "english": "Letter",
+          "romanization": "patra",
+          "context": "Written message"
+        },
+        {
+          "kannada": "ಕಥೆ",
+          "english": "Story",
+          "romanization": "kathe",
+          "context": "Narrative"
+        },
+        {
+          "kannada": "ಸಂಗೀತ",
+          "english": "Music",
+          "romanization": "sangeeta",
+          "context": "Musical art"
+        }
+      ]
+    },
+    {
+      "id": "colors-shapes",
+      "title": "Colors & Shapes",
+      "subtitle": "Names of colors and shapes",
+      "items": [
+        {
+          "kannada": "ಕೆಂಪು",
+          "english": "Red",
+          "romanization": "kempu",
+          "context": "Color"
+        },
+        {
+          "kannada": "ನೀಲಿ",
+          "english": "Blue",
+          "romanization": "neeli",
+          "context": "Color"
+        },
+        {
+          "kannada": "ಹಸಿರು",
+          "english": "Green",
+          "romanization": "hasiru",
+          "context": "Color"
+        },
+        {
+          "kannada": "ಹಳದಿ",
+          "english": "Yellow",
+          "romanization": "haLadi",
+          "context": "Color"
+        },
+        {
+          "kannada": "ಕಪ್ಪು",
+          "english": "Black",
+          "romanization": "kappu",
+          "context": "Color"
+        },
+        {
+          "kannada": "ಬಿಳಿ",
+          "english": "White",
+          "romanization": "biLi",
+          "context": "Color"
+        },
+        {
+          "kannada": "ವೃತ್ತ",
+          "english": "Circle",
+          "romanization": "vRutta",
+          "context": "Shape"
+        },
+        {
+          "kannada": "ಚೌಕ",
+          "english": "Square",
+          "romanization": "chouka",
+          "context": "Shape"
+        },
+        {
+          "kannada": "ತ್ರಿಭುಜ",
+          "english": "Triangle",
+          "romanization": "tribhuja",
+          "context": "Shape"
+        },
+        {
+          "kannada": "ಆಯತ",
+          "english": "Rectangle",
+          "romanization": "aayata",
+          "context": "Shape"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Technology & Modern Life",
+      "subtitle": "Words related to modern gadgets and tech",
+      "items": [
+        {
+          "kannada": "ದೂರವಾಣಿ",
+          "english": "Telephone",
+          "romanization": "dooravaani",
+          "context": "Communication device"
+        },
+        {
+          "kannada": "ಮೊಬೈಲ್",
+          "english": "Mobile phone",
+          "romanization": "mobail",
+          "context": "Cell phone"
+        },
+        {
+          "kannada": "ಕಂಪ್ಯೂಟರ್",
+          "english": "Computer",
+          "romanization": "kampyootar",
+          "context": "Electronic device"
+        },
+        {
+          "kannada": "ಇಂಟರ್ನೆಟ್",
+          "english": "Internet",
+          "romanization": "internet",
+          "context": "Global network"
+        },
+        {
+          "kannada": "ಇಮೇಲ್",
+          "english": "Email",
+          "romanization": "imeel",
+          "context": "Electronic mail"
+        },
+        {
+          "kannada": "ವೆಬ್ಸೈಟ್",
+          "english": "Website",
+          "romanization": "websait",
+          "context": "Online site"
+        },
+        {
+          "kannada": "ವೀಡಿಯೊ",
+          "english": "Video",
+          "romanization": "video",
+          "context": "Moving picture"
+        },
+        {
+          "kannada": "ಚಿತ್ರ",
+          "english": "Picture/Image",
+          "romanization": "chitra",
+          "context": "Visual representation"
+        },
+        {
+          "kannada": "ಆಟ",
+          "english": "Game",
+          "romanization": "aata",
+          "context": "Electronic or physical game"
+        },
+        {
+          "kannada": "ರೋಬೋಟ್",
+          "english": "Robot",
+          "romanization": "robot",
+          "context": "Automated machine"
+        }
+      ]
+    },
+    {
+"id": "nature-environment",
+"title": "Nature & Environment",
+"subtitle": "Words about natural world and surroundings",
+"items": [
+{"kannada": "ಮರ", "english": "Tree", "romanization": "mara", "context": "Common tree"},
+{"kannada": "ಹೂವು", "english": "Flower", "romanization": "hoovu", "context": "General word for flower"},
+{"kannada": "ಬೆಟ್ಟ", "english": "Hill/Mountain", "romanization": "betta", "context": "Geographical feature"},
+{"kannada": "ಕಾಡು", "english": "Forest", "romanization": "kaadu", "context": "Wild forest area"},
+{"kannada": "ಸಾಗರ", "english": "Ocean/Sea", "romanization": "saagara", "context": "Large body of water"},
+{"kannada": "ನದಿ", "english": "River", "romanization": "nadi", "context": "Flowing water body"},
+{"kannada": "ಮಣ್ಣು", "english": "Soil/Earth", "romanization": "mannu", "context": "Ground, soil"},
+{"kannada": "ಹವಾಮಾನ", "english": "Climate/Weather", "romanization": "havaamaana", "context": "Atmospheric condition"},
+{"kannada": "ಸಸ್ಯ", "english": "Plant", "romanization": "sasya", "context": "Botanical term"},
+{"kannada": "ಪ್ರಕೃತಿ", "english": "Nature", "romanization": "prakruti", "context": "Natural world"}
+]
+},
+{
+"id": "government-society",
+"title": "Government & Society",
+"subtitle": "Words about civic life and governance",
+"items": [
+{"kannada": "ಸರ್ಕಾರ", "english": "Government", "romanization": "sarkaara", "context": "State or national authority"},
+{"kannada": "ಜನತೆ", "english": "People/Citizens", "romanization": "janate", "context": "General public"},
+{"kannada": "ಕಾನೂನು", "english": "Law", "romanization": "kaanuunu", "context": "Legal system"},
+{"kannada": "ಅಧಿಕಾರಿ", "english": "Officer/Official", "romanization": "adhikaari", "context": "Government role"},
+{"kannada": "ಚುನಾವಣೆ", "english": "Election", "romanization": "chunaaNe", "context": "Voting process"},
+{"kannada": "ಸಮಾಜ", "english": "Society", "romanization": "samaaja", "context": "Community"},
+{"kannada": "ಹಕ್ಕು", "english": "Right/Privilege", "romanization": "hakku", "context": "Citizen’s right"},
+{"kannada": "ಕರ್ಥವ್ಯ", "english": "Duty/Responsibility", "romanization": "kartavya", "context": "Obligation"},
+{"kannada": "ರಾಜಕೀಯ", "english": "Politics", "romanization": "raajakiya", "context": "Political matters"},
+{"kannada": "ನ್ಯಾಯ", "english": "Justice", "romanization": "nyaaya", "context": "Fairness and law"}
+]
+},
+{
+"id": "abstract-concepts",
+"title": "Abstract Concepts",
+"subtitle": "Higher-level ideas and thoughts",
+"items": [
+{"kannada": "ಸ್ವಾತಂತ್ರ್ಯ", "english": "Freedom/Independence", "romanization": "swaatantrya", "context": "Political or personal freedom"},
+{"kannada": "ಸತ್ಯ", "english": "Truth", "romanization": "satya", "context": "Concept of truth"},
+{"kannada": "ಸುಳ್ಳು", "english": "Lie/Falsehood", "romanization": "suLLu", "context": "Opposite of truth"},
+{"kannada": "ಅಹಿಂಸೆ", "english": "Non-violence", "romanization": "ahimse", "context": "Moral principle"},
+{"kannada": "ಪ್ರೇಮ", "english": "Love", "romanization": "prema", "context": "Emotional concept"},
+{"kannada": "ಭಕ್ತಿ", "english": "Devotion", "romanization": "bhakti", "context": "Religious devotion"},
+{"kannada": "ಜ್ಞಾನ", "english": "Knowledge", "romanization": "jnaana", "context": "Wisdom, learning"},
+{"kannada": "ಶಕ್ತಿ", "english": "Power/Energy", "romanization": "shakti", "context": "Force, capability"},
+{"kannada": "ಸಮಾಧಾನ", "english": "Peace/Contentment", "romanization": "samaadhaana", "context": "Inner calm"},
+{"kannada": "ಭರವಸೆ", "english": "Hope/Assurance", "romanization": "bharavase", "context": "Optimistic belief"}
+]
+},
+{
+"id": "advanced-daily-life",
+"title": "Advanced Daily Life Expressions",
+"subtitle": "Words and phrases for nuanced daily usage",
+"items": [
+{"kannada": "ತಡವಾಗಿ", "english": "Late", "romanization": "tadavaagi", "context": "Arriving after time"},
+{"kannada": "ಮುಂಚಿತವಾಗಿ", "english": "Early/In advance", "romanization": "munchitavaagi", "context": "Beforehand"},
+{"kannada": "ಎಲ್ಲಿಂದ", "english": "From where", "romanization": "ellinda", "context": "Asking source"},
+{"kannada": "ಏಕೆ", "english": "Why", "romanization": "eke", "context": "Asking reason"},
+{"kannada": "ಹೇಗೆ", "english": "How", "romanization": "hege", "context": "Asking manner"},
+{"kannada": "ಯಾವಾಗ", "english": "When", "romanization": "yaavaaga", "context": "Asking time"},
+{"kannada": "ಎಷ್ಟು", "english": "How much/How many", "romanization": "eshtu", "context": "Asking quantity"},
+{"kannada": "ಇಷ್ಟ", "english": "Like/Preference", "romanization": "ishta", "context": "Expressing liking"},
+{"kannada": "ಬೇಡ", "english": "Don’t want/No", "romanization": "beda", "context": "Refusing politely"},
+{"kannada": "ಸಾಧ್ಯ", "english": "Possible", "romanization": "saadhya", "context": "Feasible, can be done"}
+]
+}
+  ]
+}
