@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BookOpen, GraduationCap, MessageSquare, Type, Loader2, AlertCircle } from 'lucide-react';
+import { BookOpen, GraduationCap, MessageSquare, Type, Loader2, AlertCircle, Target } from 'lucide-react';
 
 // Learning Materials Selector Component
 const LearningMaterialsSelector = ({ onMaterialSelect }) => {
@@ -25,11 +25,32 @@ const LearningMaterialsSelector = ({ onMaterialSelect }) => {
       color: '#10b981'
     },
     {
+      id: 'intermediate-vocabulary',
+      file: '/learning/intermediate-vocabulary.json', 
+      category: 'vocabulary',
+      icon: BookOpen,
+      color: '#3b82f6'
+    },
+    {
+      id: 'advanced-vocabulary',
+      file: '/learning/advanced-vocabulary.json',
+      category: 'vocabulary', 
+      icon: BookOpen,
+      color: '#7c3aed'
+    },
+    {
       id: 'common-phrases',
       file: '/learning/common-phrases.json',
       category: 'phrases', 
       icon: MessageSquare,
       color: '#f59e0b'
+    },
+    {
+      id: 'flashcard-test',
+      file: '/learning/flashcard-test.json',
+      category: 'test',
+      icon: Target,
+      color: '#dc2626'
     }
   ];
 
@@ -37,7 +58,8 @@ const LearningMaterialsSelector = ({ onMaterialSelect }) => {
     { id: 'all', label: 'All Materials', icon: GraduationCap },
     { id: 'alphabet', label: 'Alphabets', icon: Type },
     { id: 'vocabulary', label: 'Vocabulary', icon: BookOpen },
-    { id: 'phrases', label: 'Phrases', icon: MessageSquare }
+    { id: 'phrases', label: 'Phrases', icon: MessageSquare },
+    { id: 'test', label: 'Practice Tests', icon: Target }
   ];
 
   // Load learning materials on mount
@@ -90,14 +112,26 @@ const LearningMaterialsSelector = ({ onMaterialSelect }) => {
       case 'beginner': return 'level-beginner';
       case 'intermediate': return 'level-intermediate';
       case 'advanced': return 'level-advanced';
+      case 'test': return 'level-test';
       default: return 'level-beginner';
     }
   };
 
   const getItemCount = (material) => {
+    if (material.type === 'test' && material.questions) {
+      return material.questions.length;
+    }
     return material.sections?.reduce((total, section) => {
       return total + (section.items?.length || 0);
     }, 0) || 0;
+  };
+
+  const getItemLabel = (material) => {
+    switch (material.type) {
+      case 'alphabet': return 'characters';
+      case 'test': return 'questions';
+      default: return 'items';
+    }
   };
 
   if (loading) {
@@ -174,6 +208,7 @@ const LearningMaterialsSelector = ({ onMaterialSelect }) => {
         {filteredMaterials.map(material => {
           const IconComponent = material.config.icon;
           const itemCount = getItemCount(material);
+          const itemLabel = getItemLabel(material);
           
           return (
             <div key={material.id} className="material-card" onClick={() => onMaterialSelect(material)}>
@@ -190,11 +225,11 @@ const LearningMaterialsSelector = ({ onMaterialSelect }) => {
                     {material.level}
                   </span>
                   <span className="item-count">
-                    {itemCount} {material.type === 'alphabet' ? 'characters' : 'items'}
+                    {itemCount} {itemLabel}
                   </span>
                 </div>
                 
-                {material.sections && (
+                {material.sections && material.sections.length > 0 && (
                   <div className="sections-preview">
                     <span className="sections-count">
                       {material.sections.length} sections:
@@ -204,10 +239,20 @@ const LearningMaterialsSelector = ({ onMaterialSelect }) => {
                     </span>
                   </div>
                 )}
+
+                {material.type === 'test' && (
+                  <div className="test-preview">
+                    <span className="test-info">
+                      Interactive flashcard test with scoring
+                    </span>
+                  </div>
+                )}
               </div>
               
               <div className="material-action">
-                <span className="start-lesson">Start Learning →</span>
+                <span className="start-lesson">
+                  {material.type === 'test' ? 'Start Test' : 'Start Learning'} →
+                </span>
               </div>
             </div>
           );

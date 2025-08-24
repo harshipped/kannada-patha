@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { BookOpen, Volume2, ArrowLeft, ChevronRight, Lightbulb, User, MessageCircle } from 'lucide-react';
+import { BookOpen, Volume2, ArrowLeft, ChevronRight, Lightbulb, User, MessageCircle, GraduationCap } from 'lucide-react';
+import FlashcardTest from './FlashcardTest.jsx';
 
 // Main Learning Materials Viewer Component
 const LearningMaterialsViewer = ({ material, onBack, onWordClick, speakWord }) => {
@@ -8,7 +9,19 @@ const LearningMaterialsViewer = ({ material, onBack, onWordClick, speakWord }) =
 
   if (!material) return null;
 
+  // Handle flashcard tests
+  if (material.type === 'test') {
+    return (
+      <FlashcardTest 
+        material={material}
+        onBack={onBack}
+        speakWord={speakWord}
+      />
+    );
+  }
+
   const currentSection = material.sections[selectedSection];
+  const hasManyTabs = material.sections.length > 4;
 
   const playPronunciation = async (kannada, romanization) => {
     if (isPlaying) return;
@@ -112,6 +125,19 @@ const LearningMaterialsViewer = ({ material, onBack, onWordClick, speakWord }) =
                 <span className="context-text">{item.context}</span>
               </div>
             )}
+
+            {item.usage && (
+              <div className="usage-section">
+                <div className="usage-label">Usage:</div>
+                <div 
+                  className="usage-example"
+                  onClick={() => onWordClick && onWordClick(item.usage.kannada)}
+                >
+                  <span className="usage-kannada">{item.usage.kannada}</span>
+                  <span className="usage-meaning"> - {item.usage.english}</span>
+                </div>
+              </div>
+            )}
           </div>
         ))}
       </div>
@@ -175,6 +201,25 @@ const LearningMaterialsViewer = ({ material, onBack, onWordClick, speakWord }) =
                 </div>
               </div>
             )}
+
+            {item.variations && (
+              <div className="variations-section">
+                <div className="variations-title">Variations:</div>
+                <div className="variations-list">
+                  {item.variations.map((variation, varIndex) => (
+                    <div key={varIndex} className="variation-item">
+                      <span 
+                        className="variation-kannada"
+                        onClick={() => onWordClick && onWordClick(variation.kannada)}
+                      >
+                        {variation.kannada}
+                      </span>
+                      <span className="variation-context">({variation.context})</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         ))}
       </div>
@@ -216,7 +261,7 @@ const LearningMaterialsViewer = ({ material, onBack, onWordClick, speakWord }) =
 
       {/* Section Navigation */}
       {material.sections.length > 1 && (
-        <div className="section-navigation">
+        <div className={`section-navigation ${hasManyTabs ? 'many-tabs' : ''}`}>
           {material.sections.map((section, index) => (
             <button
               key={index}
